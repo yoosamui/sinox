@@ -6,7 +6,7 @@
 
 echo "copy files"
 
-mv .git .git_
+#v .git .git_
 
 find /home/yoo/sinox -type f -print0 | xargs -0 sudo chmod -R 644
 find /home/yoo/sinox -type d -print0 | xargs -0 sudo chmod -R 755
@@ -21,7 +21,7 @@ cp /home/yoo/sinox/home/automount.pkla /etc/polkit-1/localauthority/50-local.d/a
 
 cp -rT /home/yoo/sinox/home /home/yoo
 
-rm -rf /home/yoo/sinox
+#m -rf /home/yoo/sinox
 echo "done"
 exit
 
