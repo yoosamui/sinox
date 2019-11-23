@@ -23,16 +23,14 @@ vim \
 vim-athena \
 fortunes \
 cowsay \
-fortune \
+fortune-mod \
 compton \
 firefox-esr \
 pavucontrol \
 nemo \
 redshift \
 gedit \
-leafpad \
 firefox-esr \
-docker \
 gnome-terminal \
 openbox \
 compton \
