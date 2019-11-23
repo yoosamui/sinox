@@ -34,10 +34,19 @@ firefox-esr \
 gnome-terminal \
 openbox \
 compton \
+lightdm \
+gdm3 \
 gnome-settings-daemon \
 xfce4-panel \
 xfce4-power-manager \
 nitrogen -y
+echo "done"
+
+echo "install docker"
+apt install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+apt-get update
+apt-get install docker-ce
 
 
 echo "done"
