@@ -14,7 +14,7 @@ find /home/yoo/sinox -type d -print0 | xargs -0 sudo chmod -R 755
 chown -R yoo:yoo /home/yoo/sinox/home/ *
 chown -R yoo:yoo /home/yoo/sinox/home/ .
 
-chmod +x /home/yoo/sinox/docklight_3.0.orig/src/docklight 
+chmod +x /home/yoo/sinox/home/docklight_3.0.orig/src/docklight 
 
 chown root:root /home/yoo/sinox/automount.pkla
 cp /home/yoo/sinox/automount.pkla /etc/polkit-1/localauthority/50-local.d/automount.pkla
