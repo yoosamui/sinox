@@ -41,7 +41,8 @@ grub-customizer \
 gnome-settings-daemon \
 xfce4-panel \
 xfce4-power-manager \
-nitrogen -y
+nitrogen \
+transmission -y
 echo "done"
 
 echo "install docker"
