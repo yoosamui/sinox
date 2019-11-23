@@ -34,7 +34,6 @@ firefox-esr \
 gnome-terminal \
 openbox \
 compton \
-shot \
 gnome-settings-daemon \
 gnome-sound-applet \
 xfce4-panel \
