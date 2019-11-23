@@ -70,15 +70,10 @@ compton -b
 # SCIM support (for typing non-english characters)
 #scim -d &
 
-
-
-
 # A panel for good times
 #fbpanel &
-
-xfce4-panel &
-
 /home/yoo/docklight_3.0.orig/src/docklight 1 &
+xfce4-panel &
 
 
 

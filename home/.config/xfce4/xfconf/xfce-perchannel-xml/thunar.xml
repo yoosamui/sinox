@@ -12,6 +12,6 @@
   <property name="default-view" type="string" value="ThunarDetailsView"/>
   <property name="misc-show-delete-action" type="bool" value="true"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
-  <property name="last-details-view-column-widths" type="string" value="50,133,50,50,482,50,50,72,50,139"/>
+  <property name="last-details-view-column-widths" type="string" value="50,133,50,50,362,50,50,72,50,259"/>
   <property name="last-show-hidden" type="bool" value="true"/>
 </channel>
