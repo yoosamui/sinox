@@ -6,13 +6,18 @@
 
 echo "copy files"
 
+mv .git .git_
 
-find /home/yoo/sinox/home/ -type f -print0 | xargs -0 sudo chmod 644
-find /home/yoo/sinox/home/ -type d -print0 | xargs -0 sudo chmod 755
-find /home/yoo/sinox/home/ -type f -print0 | xargs -0 sudo chmod -x
+find /home/yoo/sinox -type f -print0 | xargs -0 sudo chmod -R 644
+find /home/yoo/sinox -type d -print0 | xargs -0 sudo chmod -R 755
 
 chown -R yoo:yoo /home/yoo/sinox/home/ *
 chown -R yoo:yoo /home/yoo/sinox/home/ .
+
+chown +x /home/yoo/sinox/docklight_3.0.orig/src/docklight 
+
+chown root:root /home/yoo/sinox/automount.pkla
+cp /home/yoo/sinox/automount.pkla /etc/polkit-1/localauthority/50-local.d/automount.pkla
 
 cp -rT /home/yoo/sinox/home /home/yoo
 
