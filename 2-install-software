@@ -35,7 +35,6 @@ gnome-terminal \
 openbox \
 compton \
 gnome-settings-daemon \
-gnome-sound-applet \
 xfce4-panel \
 xfce4-power-manager \
 nitrogen -y
