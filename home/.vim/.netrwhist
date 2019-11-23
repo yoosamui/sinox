@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/media/yoo/Develop/DockLightDev/sources/docklight_3.0.orig/src/utils'
+let g:netrw_dirhist_2='/media/yoo/Develop/DockLightDev/sources/docklight_3.0.orig/src'
+let g:netrw_dirhist_3='/media/yoo/Develop/DockLightDev/sources/docklight_3.0.orig/src/components'
+let g:netrw_dirhist_4='/media/yoo/Develop/DockLightDev/sources/docklight_3.0.orig/src/utils'
+let g:netrw_dirhist_5='/media/yoo/Develop/DockLightDev/sources/docklight_3.0.orig/src'
+let g:netrw_dirhist_6='/media/yoo/Develop/DockLightDev/sources/docklight_3.0.orig/src/components'
+let g:netrw_dirhist_7='/media/yoo/Develop/DockLightDev/sources/docklight_3.0.orig/src'
+let g:netrw_dirhist_8='/media/yoo/Develop/DockLightDev/sources/docklight_3.0.orig/src/components'
+let g:netrw_dirhist_9='/home/yoo/.fluxbox'
