@@ -16,7 +16,7 @@ chown -R yoo:yoo /home/yoo/sinox/home/ .
 
 chmod +x /home/yoo/sinox/home/docklight_3.0.orig/src/docklight 
 
-chown root:root /home/yoo/automount.pkla
+chown root:root /home/yoo/sinox/automount.pkla
 cp -p /home/yoo/sinox/automount.pkla /etc/polkit-1/localauthority/50-local.d/automount.pkla
 
 cp -rT -p /home/yoo/sinox/home /home/yoo
