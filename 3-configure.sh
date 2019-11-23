@@ -1,12 +1,19 @@
 #!/bin/bash
 
 #--------------------
-# needs root access
+# needs sudo access
 #--------------------
 
 echo "copy files"
-cp -rf home/ ~/
-cp -rf home/.config ~/.config
+
+
+find home/ -type f -print0 | xargs -0 sudo chmod 644
+find home/ -type d -print0 | xargs -0 sudo chmod 755
+chown yoo:yoo home/*
+
+cp -rf home/* ~/
+
+
 
 echo "done"
 exit

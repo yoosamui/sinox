@@ -41,6 +41,11 @@ grub-customizer \
 gnome-settings-daemon \
 xfce4-panel \
 xfce4-power-manager \
+xfce4-whiskermenu-plugin \
+xfce4-datetime-plugin \
+xfce4-battery-plugin \
+xfce4-indicator-plugin \
+xfce4-pulseaudio-plugin \
 nitrogen \
 transmission -y
 echo "done"
