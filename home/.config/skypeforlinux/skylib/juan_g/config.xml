@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config version="1.0" serial="2" timestamp="1563031268.8">
+  <Lib>
+    <Call>
+      <NG>
+        <UdpKdLifetime>PBb7yVd+d9cvM4IL+J0bDQ==</UdpKdLifetime>
+        <UdpKdResponseExpiry>Lj4sYGU3ZX1wA/XYhVIQ1g==</UdpKdResponseExpiry>
+        <UdpKdResponseJson>HBIBPwfQn9z+EioITZPs7GRgdghr9wnoo6gjcmqoJlo9ierlf/h4qocSkL3+JKb9V2u+pxmgvQnuh2zajr4FCbWXrbTJjac5IwMa2KJiw7GE8anFnVSPd0rgUx6jOxrarFxYHCFVwZbAy7qwaz5l2Q==</UdpKdResponseJson>
+        <UdpKdUrl>pMUsquhBBxsjQYWMg3RsKJH2x+hv2fMMYHzSCb8jD4g=</UdpKdUrl>
+        <VaultType>secure</VaultType>
+      </NG>
+    </Call>
+    <MDN>
+      <RelayTokenCache>{&#34;acquired&#34;:1563031267,&#34;expires&#34;:1563636067,&#34;hmacKey&#34;:&#34;&#34;,&#34;serviceUrl&#34;:&#34;https://edge.skype.com/trap/tokens&#34;,&#34;tokens&#34;:[{&#34;password&#34;:&#34;2NLfng3VG+vIUZ+Mx/GoGGLf2DA=&#34;,&#34;realm&#34;:&#34;\&#34;realm08\&#34;&#34;,&#34;username&#34;:&#34;AgAAJMDI2RsB1T8OMnw+v9DO+/C7V13JuP5qJjppGUAAAAAAOjdOAKTGxzkwRGSdw+nUCbLRTlM=&#34;},{&#34;password&#34;:&#34;dtYiF9LOTjtFDxm9CFi/Vqfz/qk=&#34;,&#34;realm&#34;:&#34;\&#34;realm09\&#34;&#34;,&#34;username&#34;:&#34;AgAAJMDI2RsB1T8OMnw+v9DO+/C7V13JuP5qJjppGUAAAAAAbodHqVoAn6QneKePdU1YLnYc7gA=&#34;},{&#34;password&#34;:&#34;aVSdsqnkRYUOJ0ikzExWVJCV9qs=&#34;,&#34;realm&#34;:&#34;\&#34;realm10\&#34;&#34;,&#34;username&#34;:&#34;AgAAJMDI2RsB1T8OMnw+v9DO+/C7V13JuP5qJjppGUAAAAAA6PgD9r/cJPT9qbxfx3FmRt6a2qw=&#34;},{&#34;password&#34;:&#34;NZQWCFiZtly95V1L+AIjTl+8pmA=&#34;,&#34;realm&#34;:&#34;\&#34;realm11\&#34;&#34;,&#34;username&#34;:&#34;AgAAJMDI2RsB1T8OMnw+v9DO+/C7V13JuP5qJjppGUAAAAAAQQo83ZV5Eur5zezYzKpm2iKUFRs=&#34;},{&#34;password&#34;:&#34;ZCprjggSQQsuHjwTW69QuBFYwA8=&#34;,&#34;realm&#34;:&#34;\&#34;realm12\&#34;&#34;,&#34;username&#34;:&#34;AgAAJMDI2RsB1T8OMnw+v9DO+/C7V13JuP5qJjppGUAAAAAAb3p/VqvfHPWkd7Lh0GjqB3EDOJA=&#34;},{&#34;password&#34;:&#34;ocErclaJKYmW6d7COMaBirNBams=&#34;,&#34;realm&#34;:&#34;\&#34;realm13\&#34;&#34;,&#34;username&#34;:&#34;AgAAJMDI2RsB1T8OMnw+v9DO+/C7V13JuP5qJjppGUAAAAAAgVnJhBRN54GTgphIgqTq1TMaS1Q=&#34;},{&#34;password&#34;:&#34;42xtAINW2brUhklZ6ldMKZRDCQg=&#34;,&#34;realm&#34;:&#34;\&#34;realm14\&#34;&#34;,&#34;username&#34;:&#34;AgAAJMDI2RsB1T8OMnw+v9DO+/C7V13JuP5qJjppGUAAAAAAIBCjmKvaDZ/TWK0w+6jwc24huz4=&#34;},{&#34;password&#34;:&#34;Pb5dTMGUzD2r2pUhxmX2xZwaL60=&#34;,&#34;realm&#34;:&#34;\&#34;rtcmedia\&#34;&#34;,&#34;username&#34;:&#34;AgAAJMDI2RsB1T8OMnw+v9DO+/C7V13JuP5qJjppGUAAAAAAUo2LgkzqpVIcUTl7KZVsNR8jHvg=&#34;}]}</RelayTokenCache>
+    </MDN>
+    <Trouter>
+      <ConnectionCache>{&#34;AuthTokenHash&#34;:&#34;4c3e5828e63332e300b3b8de9b5ad8e655898cc63ac3ae853b8bd73e4b37d651&#34;,&#34;ConnectedEvent&#34;:&#34;{\&#34;name\&#34;:\&#34;trouter.connected\&#34;,\&#34;args\&#34;:[{\&#34;ccid\&#34;:\&#34;3BCsM91-ufQ\&#34;,\&#34;healthUrl\&#34;:\&#34;https:\/\/go.trouter.skype.com:443\/v3\/h\&#34;,\&#34;id\&#34;:\&#34;7fRMxkt8gEm3BCsM91-ufQ\&#34;,\&#34;reconnectUrl\&#34;:\&#34;wss:\/\/trouter-easia-b.trouter.skype.com:443\/v3\/c?issuer=prod-2&#38;st=1563030967444&#38;se=1563617573444&#38;sr=qkYAALRW7fRMxkt8gEm3BCsM91-uffIbHeKLKxOSPvFVP3JuHi8mirk7t3LZXBvw84oWnvHz&#38;sig=wbOCwCASa89rcMYFWVY8Mmu0hJlwHkIqGUMjAvVAja0\&#34;,\&#34;surl\&#34;:\&#34;https:\/\/trouter-easia-b.trouter.skype.com:3443\/v3\/f\/7fRMxkt8gEm3BCsM91-ufQ\/\&#34;,\&#34;url\&#34;:\&#34;https:\/\/trouter-easia-b.trouter.skype.com:26196\/v3\/f\/7fRMxkt8gEm3BCsM91-ufQ\/\&#34;,\&#34;se\&#34;:\&#34;1563617573444\&#34;,\&#34;ttl\&#34;:586306,\&#34;dur\&#34;:\&#34;2\&#34;}]}&#34;}</ConnectionCache>
+    </Trouter>
+  </Lib>
+</config>

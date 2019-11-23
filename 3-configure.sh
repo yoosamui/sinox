@@ -5,7 +5,8 @@
 #--------------------
 
 echo "copy files"
-cp home/* ~/
+cp -rf home/ ~/
+cp -rf home/.config ~/.config
 
 echo "done"
 exit

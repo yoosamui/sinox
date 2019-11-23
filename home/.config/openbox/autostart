@@ -70,6 +70,8 @@ compton -b
 # SCIM support (for typing non-english characters)
 #scim -d &
 
+/home/yoo/docklight_3.0.orig/src/docklight
+
 # A panel for good times
 #fbpanel &
 
