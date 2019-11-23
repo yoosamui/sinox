@@ -51,9 +51,6 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 apt-get update
 apt-get install docker.io -y
 
-groupadd docker
-usermod -aG docker yoo
-
 
 echo "done"
 
