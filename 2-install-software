@@ -1,0 +1,54 @@
+#!/bin/bash
+
+#--------------------
+# needs root access
+#--------------------
+
+echo "install all software from debian repo"
+apt install \
+build-essential \
+cmake \
+git \
+gitk \
+libgtkmm-3.0-dev \
+libwnck-3-dev \
+autotools-dev \
+autoconf \
+libtool \
+gettext \
+autopoint \
+intltool \
+clang-format \
+vim \
+vim-athena \
+fortunes \
+cowsay \
+fortune \
+compton \
+firefox-esr \
+pavucontrol \
+nemo \
+redshift \
+gedit \
+leafpad \
+firefox-esr \
+docker \
+gnome-terminal \
+openbox \
+compton \
+shot \
+gnome-settings-daemon \
+gnome-sound-applet \
+xfce4-panel \
+xfce4-power-manager \
+nitrogen -y
+
+
+echo "done"
+exit
+
+
+
+
+
+
