@@ -30,6 +30,10 @@ fi
 #A front-end: nmcli and nmtui (enclosed in package network-manager), nm-tray, network-manager-#gnome (nm-applet), plasma-nm.
 #sudo apt install network-manager
 
+https://www.circuidipity.com/openbox/
+https://wiki.archlinux.org/index.php/Rofi
+
+
 xfce-mcs-manager &
 xfce4-power-manager  &
 

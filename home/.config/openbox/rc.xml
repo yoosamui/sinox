@@ -339,7 +339,8 @@
     </keybind>
     <keybind key="A-F2">
       <action name="Execute">
-        <command>gmrun</command>
+        <!--command>gmrun</command-->
+        <command>rofi -combi-modi window,drun,ssh -theme solarized -font "hack 10" -show combi</command>
       </action>
     </keybind>
     <!--
