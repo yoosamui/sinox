@@ -2,6 +2,7 @@
 
 #--------------------
 # needs root access
+# https://wiki.archlinux.org/index.php/Rofi
 #--------------------
 
 echo "install all software from debian repo"
@@ -10,10 +11,14 @@ build-essential \
 cmake \
 git \
 gitk \
+network-manager \
+network-manager-gnome \
 libgtkmm-3.0-dev \
 libwnck-3-dev \
 autotools-dev \
 autoconf \
+pk-update-icon \
+rofi \
 libtool \
 gettext \
 autopoint \
@@ -36,7 +41,7 @@ gnome-terminal \
 openbox \
 compton \
 lightdm \
-#gdm3 \
+gdm3 \
 arandr \
 grub-customizer \
 gnome-settings-daemon \
@@ -52,9 +57,11 @@ nitrogen \
 policykit-1-gnome \
 chromium \
 geany \
-transmission -y
 lxinput \
 lxrandr \
+transmission -y
+
+
 apt update
 apt autoremove -y
 

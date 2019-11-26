@@ -23,16 +23,8 @@ fi
 # If you want to use XFCE config tools...
 ##http://openbox.org/wiki/Power_management
 #http://www.linuxfromscratch.org/blfs/view/svn/xfce/xfce4-settings.html
-
-#https://wiki.archlinux.org/index.php/NetworkManager
-#NetworkManager is composed of two layers:
-#A daemon running as root: network-manager.
-#A front-end: nmcli and nmtui (enclosed in package network-manager), nm-tray, network-manager-#gnome (nm-applet), plasma-nm.
-#sudo apt install network-manager
-
 xfce-mcs-manager &
-xfce4-power-manager  &
-
+3xfce4-power-manager  &
 #xfce4-power-manager
 #  apt get install xfce4-power-manager
 #  apt get install xfce4-settings
@@ -40,7 +32,6 @@ xfce4-power-manager  &
 gnome-power-manager &
 gnome-power-preferences &
 
-##https://wiki.gnome.org/Projects/NetworkManager
 # http://geolocation-db.com/
 # thailand
 redshift -t 5000:5000 -l 13.75:100.4667 -g 1.0 &
@@ -48,15 +39,7 @@ redshift -t 5000:5000 -l 13.75:100.4667 -g 1.0 &
 #  launch the policykit authentication agent
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 #---------------------------------------------------------------------
-#sudo systemctl restart network-manager
-
-#https://www.circuidipity.com/openbox/
-xfce4-power-manager &
-
-
-gnome-sound-applet &
-
-
+#https://wiki.archlinux.org/index.php/Rofi
 
 # To view and set the desired wallpaper from a specific directory recursively, run: 
 # $ nitrogen /path/to/image/directory/
@@ -71,32 +54,26 @@ nitrogen --restore &
 #---------------------------------------------------------------------
 
 
-
+##https://wiki.gnome.org/Projects/NetworkManager
 
 gnome-sound-applet &
+
+
+#https://wiki.archlinux.org/index.php/NetworkManager
+#NetworkManager is composed of two layers:
+#A daemon running as root: network-manager.
+#A front-end: nmcli and nmtui (enclosed in package network-manager), nm-tray, network-manager-#gnome (nm-applet), plasma-nm.
+#sudo apt install network-manager
+
+
+
+#https://www.circuidipity.com/openbox/
+xfce4-power-manager &
 
 #sudo apt install network-manager network-manager-gnome
 #network-manager-applet &
 nm-applet &
 #nm-tray &
-
-
-
-
-# Set the wallpaper
-#hsetroot ~/wallpaper.png &
-
-# Run a Composite manager
-
-# SCIM support (for typing non-english characters)
-#scim -d &
-
-# A panel for good times
-#fbpanel &
-/home/yoo/docklight_3.0.orig/src/docklight 1 &
-xfce4-panel &
-
-
 
 volumeicon &
 
@@ -117,7 +94,6 @@ compton -b -c &
 #fbpanel &
 /home/yoo/docklight_3.0.orig/src/docklight 1 &
 xfce4-panel &
-pk-update-icon &
 
 
 

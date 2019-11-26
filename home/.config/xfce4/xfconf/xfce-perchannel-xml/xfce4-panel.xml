@@ -10,31 +10,20 @@
       <property name="position-locked" type="bool" value="true"/>
       <property name="size" type="uint" value="28"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="3"/>
+        <value type="int" value="1"/>
         <value type="int" value="7"/>
         <value type="int" value="24"/>
         <value type="int" value="15"/>
-        <value type="int" value="23"/>
-        <value type="int" value="25"/>
-        <value type="int" value="9"/>
         <value type="int" value="14"/>
-        <value type="int" value="1"/>
         <value type="int" value="6"/>
         <value type="int" value="4"/>
         <value type="int" value="2"/>
-        <value type="int" value="5"/>
-        <value type="int" value="8"/>
-        <value type="int" value="10"/>
-        <value type="int" value="12"/>
-        <value type="int" value="13"/>
         <value type="int" value="16"/>
         <value type="int" value="17"/>
-        <value type="int" value="18"/>
         <value type="int" value="19"/>
-        <value type="int" value="20"/>
         <value type="int" value="21"/>
       </property>
-      <property name="background-style" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="0"/>
       <property name="background-color" type="array">
         <value type="uint" value="17589"/>
         <value type="uint" value="35225"/>
@@ -58,6 +47,8 @@
         <value type="string" value="vlc"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="task manager"/>
+        <value type="string" value="wicd-client.py"/>
+        <value type="string" value="volumeicon"/>
         <value type="string" value="blueman-applet"/>
         <value type="string" value="clipman"/>
         <value type="string" value="xfce4-power-manager"/>
@@ -91,7 +82,6 @@
       <property name="style" type="uint" value="0"/>
       <property name="expand" type="bool" value="true"/>
     </property>
-    <property name="plugin-1" type="string" value="datetime"/>
     <property name="plugin-4" type="string" value="separator">
       <property name="style" type="uint" value="3"/>
     </property>
@@ -100,11 +90,16 @@
     <property name="plugin-10" type="string" value="power-manager-plugin"/>
     <property name="plugin-12" type="string" value="screenshooter"/>
     <property name="plugin-13" type="string" value="xfce4-sensors-plugin"/>
-    <property name="plugin-16" type="string" value="separator"/>
+    <property name="plugin-16" type="string" value="separator">
+      <property name="style" type="uint" value="1"/>
+    </property>
     <property name="plugin-17" type="string" value="showdesktop"/>
     <property name="plugin-18" type="string" value="smartbookmark"/>
     <property name="plugin-19" type="string" value="thunar-tpa"/>
     <property name="plugin-20" type="string" value="wavelan"/>
-    <property name="plugin-21" type="string" value="windowmenu"/>
+    <property name="plugin-21" type="string" value="windowmenu">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-1" type="string" value="whiskermenu"/>
   </property>
 </channel>
