@@ -48,7 +48,12 @@ xfce4-battery-plugin \
 xfce4-indicator-plugin \
 xfce4-pulseaudio-plugin \
 nitrogen \
+policykit-1-gnome \
 transmission -y
+
+apt update
+apt autoremove -y
+
 echo "done"
 
 echo "install docker"

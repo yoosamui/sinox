@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Grub Customizer
+Comment=Customize the bootloader (GRUB2 or BURG)
+Icon=grub-customizer
+Exec=gksu grub-customizer
+NoDisplay=false
+Categories=Settings;System;
+StartupNotify=false
+Terminal=false

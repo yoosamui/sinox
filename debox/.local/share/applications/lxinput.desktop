@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Keyboard and Mouse
+Comment=Configure keyboard, mouse, and other input devices
+Icon=input-keyboard
+Exec=lxinput
+NoDisplay=false
+Categories=GTK;HardwareSettings;Settings;
+StartupNotify=true
+Terminal=false

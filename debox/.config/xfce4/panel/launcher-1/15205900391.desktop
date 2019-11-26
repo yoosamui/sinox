@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Session
+Comment=
+Exec=echo
+Icon=system-shutdown
+Path=
+Terminal=false
+StartupNotify=false

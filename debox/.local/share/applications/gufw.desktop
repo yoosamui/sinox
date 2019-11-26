@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Firewall Configuration
+Comment=An easy way to configure your firewall
+Icon=gufw
+Exec=gksu gufw
+NoDisplay=false
+Categories=GNOME;GTK;Security;Settings;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;X-Unity-Settings-Panel;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+StartupNotify=false
+Terminal=false

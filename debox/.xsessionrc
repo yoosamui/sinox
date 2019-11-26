@@ -1,0 +1,4 @@
+#Change first day of week to Monday
+export LC_TIME=ro_RO.UTF-8
+#Change to metric system
+export LC_MEASUREMENT=ro_RO.UTF-8

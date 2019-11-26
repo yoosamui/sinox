@@ -1,0 +1,11 @@
+numlockx on &
+compton -b -cC -r2 -o0.5 -l-2 -t-2 -m0.95 -i0.95 -e0.95 -z &
+# wicd-client --tray &
+xfce4-panel &
+setxkbmap -layout "us,ro(std)" -option "grp:alt_shift_toggle" &
+# nitrogen --restore &
+pcmanfm-qt --desktop &
+xfce4-notifyd &
+fbxkb &
+# indicator-keylock &
+pk-update-icon &

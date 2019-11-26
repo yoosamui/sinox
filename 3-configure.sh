@@ -10,6 +10,7 @@ mv .git .git_
 
 find /home/yoo/sinox -type f -print0 | xargs -0 sudo chmod -R 644
 find /home/yoo/sinox -type d -print0 | xargs -0 sudo chmod -R 755
+find /home/yoo/sinox/home/scripts -type d -print0 | xargs -0 sudo chmod +x *
 
 chown -R yoo:yoo /home/yoo/sinox/home/ *
 chown -R yoo:yoo /home/yoo/sinox/home/ .

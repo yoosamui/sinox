@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=compton
+GenericName=X compositor
+Comment=A X compositor
+Icon=compton
+TryExec=compton
+Exec=compton
+NoDisplay=true
+Categories=Utility;
+Keywords=x;x11;compositor;
+StartupNotify=false
+Terminal=false

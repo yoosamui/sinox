@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Root Terminal
+Comment=Opens a terminal as the root user, using gksu to ask for the password
+Icon=gksu-root-terminal
+Exec=gksu lxterminal
+NoDisplay=false
+Categories=GTK;System;TerminalEmulator;
+StartupNotify=true
+Terminal=false

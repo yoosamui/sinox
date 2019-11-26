@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-notifyd" version="1.0">
+  <property name="applications" type="empty">
+    <property name="known_applications" type="array">
+      <value type="string" value="chromium"/>
+      <value type="string" value="Electron"/>
+      <value type="string" value="indicator-keylock"/>
+      <value type="string" value="Wicd"/>
+      <value type="string" value="Xfce volume control"/>
+      <value type="string" value="Xfce4-notifyd settings"/>
+      <value type="string" value="xfce4-power-manager"/>
+      <value type="string" value="xfce4-sensors-plugin"/>
+    </property>
+  </property>
+  <property name="notify-location" type="uint" value="2"/>
+  <property name="expire-timeout" type="int" value="2"/>
+</channel>
