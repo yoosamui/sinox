@@ -36,7 +36,7 @@ gnome-terminal \
 openbox \
 compton \
 lightdm \
-gdm3 \
+#gdm3 \
 arandr \
 grub-customizer \
 gnome-settings-daemon \
@@ -49,8 +49,11 @@ xfce4-indicator-plugin \
 xfce4-pulseaudio-plugin \
 nitrogen \
 policykit-1-gnome \
+chromium \
+geany \
 transmission -y
-
+lxinput \
+lxrandr \
 apt update
 apt autoremove -y
 
