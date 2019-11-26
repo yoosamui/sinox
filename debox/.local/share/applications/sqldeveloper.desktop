@@ -1,8 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Version=1.0
-Type=Application
-Terminal=false
-Exec=/home/dumitru/Public/sqldeveloper/sqldeveloper.sh
-Name=Oracle SQL Developer
-Icon=/home/dumitru/Public/sqldeveloper/icon.png
