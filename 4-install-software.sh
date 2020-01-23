@@ -44,6 +44,7 @@ firefox-esr \
 gnome-terminal \
 openbox \
 sddm \
+gmessage \
 compton \
 lightdm \
 gdm3 \

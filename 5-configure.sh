@@ -16,12 +16,16 @@ chown -R $USER:$USER home/ *
 chown -R $USER:$USER home/ .
 
 chmod a+x home/docklight_3.0.orig/src/docklight 
+chown $USER:$USER -R /home/docklight_3.0
 
 chown root:root automount.pkla
 mkdir -p /etc/polkit-1/localauthority/50-local.d/automount.pkla
 cp -p automount.pkla /etc/polkit-1/localauthority/50-local.d/automount.pkla
 
-cp -rT -p home /home/yoo
+cp -rT -p home /home/$USER
+chown $USER:$USER -R /home/$USER
+
+
 
 #m -rf /home/yoo/sinox
 
