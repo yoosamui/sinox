@@ -19,4 +19,9 @@ echo ${c}
 sed -i ${c} ${file}
 cp -p ${file} ${dest}
 ls ${r}${file} -la
+
+apt update 
+apt upgrade -y
+ 
+
 echo "done"
