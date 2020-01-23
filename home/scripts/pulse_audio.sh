@@ -14,11 +14,11 @@ else
 			;;	
 		
 			"+") 
-			pactl set-sink-volume $i +5%
+			pactl set-sink-volume $i +15%
 			;;	
 		
 			"-") 
-			pactl set-sink-volume $i -5%
+			pactl set-sink-volume $i -15%
 			;;
 			*) 
 			echo "parameter $1 is not processed"

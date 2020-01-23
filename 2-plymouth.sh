@@ -7,8 +7,8 @@ grub='/etc/default/grub'
 
 cp -p 'etc/grub' ${grub}
 
-apt install plymouth
-apt-get install plymouth plymouth-themes
+apt install plymouth -y
+apt-get install plymouth plymouth-themes -y
 
 /usr/sbin/plymouth-set-default-theme --list
 # Then, to set your desired theme run: 
@@ -18,7 +18,7 @@ apt-get install plymouth plymouth-themes
 # firmware-linux-nonfree. To do that, execute the following command:
 update-grub2
 update-initramfs -u
-apt-get install firmware-linux-nonfree
+apt-get install firmware-linux-nonfree -y
 update-initramfs -u
 
 

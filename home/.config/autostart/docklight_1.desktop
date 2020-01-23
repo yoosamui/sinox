@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Exec=/home/yoo/docklight_3.0.orig/src/docklight
-X-GNOME-Autostart-enabled=true
-NoDisplay=false
-Hidden=false
-Name[en_US]=docklight_1
-Comment[en_US]=No description
-X-GNOME-Autostart-Delay=1

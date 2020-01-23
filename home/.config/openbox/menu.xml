@@ -28,8 +28,9 @@
   </item>
   <separator />
   <item label="Exit">
-    <action name="Exit" />
+    <action name="Execute"><execute>/home/yoo/scripts/openbox-exit.sh</execute></action>
   </item>
+
 </menu>
 
 </openbox_menu>

@@ -337,9 +337,9 @@
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>thunar</name>
+          <name>nemo</name>
         </startupnotify>
-        <command>thunar</command>
+        <command>nemo</command>
       </action>
       <!-- Launch scrot when Print is pressed -->
     </keybind>
@@ -350,7 +350,12 @@
     </keybind>
     <keybind key="A-F2">
       <action name="Execute">
-        <command>gmrun</command>
+        <command>rofi -combi-modi window,drun,ssh  -font "hack 10" -show combi</command>
+      </action>
+    </keybind>
+<keybind key="A-F3">
+      <action name="Execute">
+        <command>xfce4-appfinder</command>
       </action>
     </keybind>
     <!--
@@ -457,7 +462,7 @@
     <!-- Super+Insert = Dock undecorated Quadrant 1 -->
     <keybind key="W-Up">
       <action name="Unmaximize"/>
-      <action name="Undecorate"/>
+      <action name="Decorate"/>
       <action name="MoveResizeTo">
         <x>0</x>
         <y>0</y>
@@ -468,7 +473,7 @@
     <!-- Super+Home = Dock undecorated Quadrant 2 -->
     <keybind key="W-Right">
       <action name="Unmaximize"/>
-      <action name="Undecorate"/>
+      <action name="Decorate"/>
       <action name="MoveResizeTo">
         <x>50%</x>
         <y>0</y>
@@ -479,7 +484,7 @@
     <!-- Super+Delete = Dock undecorated Quadrant 3 -->
     <keybind key="W-Down">
       <action name="Unmaximize"/>
-      <action name="Undecorate"/>
+      <action name="Decorate"/>
       <action name="MoveResizeTo">
         <x>0</x>
         <y>50%</y>
@@ -490,7 +495,7 @@
     <!-- Super+End = Dock undecorated Quadrant 4 -->
     <keybind key="W-Left">
       <action name="Unmaximize"/>
-      <action name="Undecorate"/>
+      <action name="Decorate"/>
       <action name="MoveResizeTo">
         <x>50%</x>
         <y>50%</y>
@@ -515,7 +520,7 @@
     <!-- number of pixels the mouse must move before a drag begins -->
     <doubleClickTime>500</doubleClickTime>
     <!-- in milliseconds (1000 = 1 second) -->
-    <screenEdgeWarpTime>0</screenEdgeWarpTime>
+    <screenEdgeWarpTime>400</screenEdgeWarpTime>
     <!-- Time before changing desktops when the pointer touches the edge of the
        screen while moving a window, in milliseconds (1000 = 1 second).
        Set this to 0 to disable warping -->
@@ -976,5 +981,16 @@
       <desktop>all</desktop>
       <layer>above</layer>
     </application>
+    <application name="gmessage">
+      <decor>no</decor>
+      <shade>no</shade>
+      <skip_pager>yes</skip_pager>
+      <skip_taskbar>yes</skip_taskbar>
+      <fullscreen>no</fullscreen>
+      <maximized>no</maximized>
+    </application>
+    
+    
+    
   </applications>
 </openbox_config>
