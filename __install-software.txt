@@ -9,7 +9,7 @@ links2 - a cross platform console based web browser ... - All about Linux
 LXTERMINAL
 
 
-nr
+
 firmware-misc-nonfree
  firmware-iwlwifi 
 firmware-atheros

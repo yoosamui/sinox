@@ -19,6 +19,8 @@ autotools-dev \
 autoconf \
 pk-update-icon \
 rofi \
+blueman \
+clementine \
 libtool \
 gettext \
 autopoint \
@@ -53,13 +55,19 @@ xfce4-datetime-plugin \
 xfce4-battery-plugin \
 xfce4-indicator-plugin \
 xfce4-pulseaudio-plugin \
+notification-daemon \
 lxappearance \
 nitrogen \
 policykit-1-gnome \
 chromium \
+gparted \
 geany \
 lxinput \
+gawk \
+exuberant-ctags \
 lxrandr \
+lxtask \
+vlc \
 transmission -y
 
 
