@@ -25,8 +25,8 @@ deb http://ftp.plusline.net/debian/ buster-updates contrib main non-free
 deb-src http://ftp.plusline.net/debian/ buster-updates contrib main non-free
 
 # deb http://httpredir.debian.org/debian/ stretch main contrib non-free
-deb http://ftp.plusline.net/debian/ buster-proposed-updates contrib main non-free
-deb http://security.debian.org/ buster/updates non-free main contrib
+#deb http://ftp.plusline.net/debian/ buster-proposed-updates contrib main non-free
+#deb http://security.debian.org/ buster/updates non-free main contrib
 #deb [arch=amd64] https://download.docker.com/linux/debian stretch stable
 # deb-src [arch=amd64] https://download.docker.com/linux/debian stretch stable
 # deb [arch=i386,amd64] https://deb.opera.com/opera-stable/ stable non-free
