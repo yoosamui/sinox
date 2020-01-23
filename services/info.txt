@@ -1,0 +1,23 @@
+sudo apt install  notification-daemon
+xfce has a dialog to manage the settings.
+
+
+on the first call via D-Bus, adding the following configuration to its services
+directory /usr/share/dbus-1/services respectively $XDG_DATA_HOME/dbus-1/services, e.g.
+
+
+org.freedesktop.Notifications.service
+
+[D-BUS Service]
+Name=org.freedesktop.Notifications
+//#Exec=/usr/lib/notification-daemon-1.0/notification-daemon
+Exec=/usr/lib/notification-daemon/notification-daemon
+
+1. sudo apt install  notification-daemon
+2. cd /usr/share/dbus-1/services
+3. sudo nano org.freedesktop.Notifications.service
+4. paste
+[D-BUS Service]
+Name=org.freedesktop.Notifications
+Exec=/usr/lib/notification-daemon/notification-daemon
+5. restart
