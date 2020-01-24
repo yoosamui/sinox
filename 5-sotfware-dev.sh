@@ -42,6 +42,7 @@ gnome-power-manager \
 network-manager-gnome \
 trayer \
 lxrandr \
+arandr \
 openbox \
 xbacklight \
 gufw \
