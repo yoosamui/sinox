@@ -46,6 +46,7 @@ openbox \
 sddm \
 gmessage \
 compton \
+compton-conf \
 lightdm \
 gdm3 \
 arandr \

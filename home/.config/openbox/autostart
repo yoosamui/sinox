@@ -19,7 +19,7 @@ elif which gnome-settings-daemon >/dev/null; then
 fi
 
 #---------------------------------------------------------------------
-gnome-power-manager &
+#gnome-power-manager &
 
 #---------------------------------------------------------------------
 #  launch the policykit authentication agent
@@ -44,9 +44,12 @@ nm-applet &
 #tint2 &
 compton -b -c &
 
-trayer  --edge top --align right --SetPartialStrut true &
+/home/yoo/trayer/trayer  --edge top --align right --SetPartialStrut true &
 
 redshift-gtk &
+
+xautolock -time 15 -locker "systemctl suspend" &
+
 
 
 

@@ -37,7 +37,7 @@ viewnior \
 clementine \
 compton \
 nitrogen \
-gnome-power-manager \
+xautolock \
 network-manager-gnome \
 trayer \
 lxrandr \
