@@ -33,7 +33,6 @@ pasystray \
 gmessage \
 gedit \
 geany \
-leafpad \
 viewnior \
 clementine \
 compton \
