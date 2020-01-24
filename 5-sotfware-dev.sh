@@ -15,4 +15,8 @@ autopoint \
 intltool \
 clang-format \
 vim \
-vim-athena -y
+vim-athena \
+gnome-terminal \
+nemo \
+notification-daemon -y
+

@@ -19,5 +19,5 @@ Exec=/usr/lib/notification-daemon/notification-daemon
 4. paste
 [D-BUS Service]
 Name=org.freedesktop.Notifications
-Exec=/usr/lib/notification-daemon/notification-daemon
+Exec=/usr/lib/notification-daemon/notification-daemon 
 5. restart
