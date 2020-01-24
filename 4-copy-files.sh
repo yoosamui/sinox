@@ -22,7 +22,7 @@ chown root:root automount.pkla
 mkdir -p /etc/polkit-1/localauthority/50-local.d/automount.pkla
 cp -p automount.pkla /etc/polkit-1/localauthority/50-local.d/automount.pkla
 
-cp -rT -p home /home/$USER
+cp -r home/. /home/$USER
 chown $USER:$USER -R /home/$USER
 
 mkdir -p /usr/share/dbus-1/services

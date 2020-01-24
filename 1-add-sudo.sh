@@ -23,6 +23,5 @@ cp -p ${file} ${dest}
 ls ${r}${file} -la
 
 
- 
-
-echo "done"
+chown root:root /etc/sudoers
+echo "done. change to sudo"
