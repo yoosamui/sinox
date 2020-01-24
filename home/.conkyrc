@@ -1,0 +1,88 @@
+v# Conky settings #
+
+#temperature_unit celsius
+
+default_color FFFFFF
+text_buffer_size 1024
+minimum_size 3024 200
+alignment top_right
+background no
+border_width 0 
+#cpu_avg_samples 2
+default_color white
+default_outline_color white
+default_shade_color white
+double_buffer yes 
+draw_borders no
+draw_graph_borders no 
+draw_outline no
+draw_shades yes
+use_xft yes
+gap_x 0
+gap_y 0
+minimum_size 1024 200
+maximum_width 2000 
+#net_avg_samples 2
+no_buffers yes 
+out_to_console no
+out_to_stderr no
+extra_newline no
+own_window yes
+own_window_class Conky
+own_window_type normal
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager 
+own_window_argb_visual yes
+own_window_argb_value 0
+#own_window_argb_value 255
+stippled_borders 0
+update_interval 1
+update_interval_on_battery 1
+uppercase no
+use_spacer none
+show_graph_scale no 
+show_graph_range no
+short_units no
+#max_user_text 24000
+top_name_width 15
+col CCCCCC
+hposx 176
+alignment top_middle
+gap_x 0
+gap_y 100
+
+own_window_colour 000000
+TEXT
+
+
+${alignc}${color White}${offset 50}${font system Font:size=62}${time %H:%M:%S}${font}
+
+${alignc}${color White}${offset 50}${font system Century Font:size=42}${time %A} ${time %d} ${time  %b}-${color white}${time %Y}${font}
+
+
+#${scroll 16 $nodename - $sysname $kernel on $machine |}
+${alignc}${execi 999999 lsb_release -ds}
+${alignc}${Kernel version}
+
+${font arial Font:size=22}${alignc}Disks${font}
+
+${color Yellow}
+/dev/sdc1 ${if_mounted /} /  ${else}Not mounted${endif}
+${fs_type /} ${fs_used /} / ${fs_size /} ${alignr}$color${fs_used_perc /}% ${color0}${fs_bar 8,200 /}
+
+${color Yellow}
+/dev/sdc2  ${if_mounted /media/yoo/Develop} /media/yoo/Develop   ${else}Not mounted${endif}
+${fs_type /media/yoo/Develop} ${fs_used /media/yoo/Develop/} / ${fs_size /media/yoo/Develop/} ${alignr}$color${fs_used_perc /media/yoo/Develop/}% ${color0}${fs_bar 8,200 /media/yoo/Develop/}
+
+${color Yellow}
+/dev/sdc3  ${if_mounted /media/yoo/debian-clone} /media/yoo/debian-clone  ${else}Not mounted${endif}
+${fs_type /media/yoo/debian-clone} ${fs_used /media/yoo/debian-clone} / ${fs_size /media/yoo/debian-clone} ${alignr}$color${fs_used_perc /media/yoo/debian-clone}% ${color0}${fs_bar 8,200 /media/yoo/debian-clone/}
+
+
+CPU1 ${cpu cpu0}% ${cpubar cpu0}
+CPU2 ${cpu cpu1}% ${cpubar cpu1}
+CPU2 ${cpu cpu2}% ${cpubar cpu2}
+CPU3 ${cpu cpu3}% ${cpubar cpu3}
+
+
+

@@ -26,10 +26,6 @@ rofi \
 nemo \
 blueman \
 pulseaudio \
-pulseaudio-bluetooth  \
-pulseaudio-module-bluetooth \
-pulseaudio-equalizer \
-pulseaudio-jack \
 pavucontrol \
 pasystray \
 gmessage \
@@ -51,6 +47,7 @@ clamav \
 clamav-daemon \
 clamtk \
 transmission-gtk \
+conky \
 lxtask \
 obconf \
 obmenu \
@@ -63,6 +60,7 @@ redshift-gtk \
 sddm \
 sddm-theme-debian-breeze \
 kde-config-sddm \
+firefox-esr \
 notification-daemon -y
 
 # Add debian-breezetheme to alternatives with higher priority than debian packages:

@@ -29,7 +29,7 @@ mkdir -p /usr/share/dbus-1/services
 cp -p services/org.freedesktop.Notifications.service /usr/share/dbus-1/services
 
 
-cp -p usr_share_themes/Bluebird /etc/share/themes
+cp -p usr_share_themes/Bluebird /usr/share/themes
 chown root:root -R /etc/share/themes/Bluebird
 
   
