@@ -2,6 +2,10 @@
 
 echo "install all software from debian repo"
 
+apt update
+apt upgrade -y
+
+
 apt install \
 build-essential \
 cmake \
@@ -14,17 +18,47 @@ gettext \
 autopoint \
 intltool \
 clang-format \
+software-properties-common \
 vim \
 vim-athena \
 gnome-terminal \
+rofi \
 nemo \
+blueman \
+pulseaudio \
+pulseaudio-bluetooth  \
+pulseaudio-module-bluetooth \
+pulseaudio-equalizer \
+pulseaudio-jack \
+pavucontrol \
+pasystray \
 gmessage \
 gedit \
+geany \
+viewnior \
+clementine \
 compton \
 nitrogen \
 gnome-power-manager \
+network-manager-gnome \
 trayer \
+lxrandr \
 openbox \
+xbacklight \
+gufw \
+galculator \
+clamav \
+clamav-daemon \
+clamtk \
+transmission-gtk \
+lxtask \
+obconf \
+obmenu \
+fbxkb \
+wireless-tools \
+lxappearance \
+x11-xserver-utils \
+numix-icon-theme \
 redshift-gtk \
 plasma-desktop  \
 sddm \

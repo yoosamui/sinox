@@ -28,6 +28,11 @@ chown $USER:$USER -R /home/$USER
 mkdir -p /usr/share/dbus-1/services
 cp -p services/org.freedesktop.Notifications.service /usr/share/dbus-1/services
 
+
+cp -p usr_share_themes/Bluebird /etc/share/themes
+chown root:root -R /etc/share/themes/Bluebird
+
+  
 echo "done"
 exit
 

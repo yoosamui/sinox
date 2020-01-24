@@ -44,7 +44,7 @@ nm-applet &
 #tint2 &
 compton -b -c &
 
-/home/yoo/trayer/trayer  --edge top --align right --SetPartialStrut true &
+trayer  --edge top --align right --SetPartialStrut true &
 
 redshift-gtk &
 

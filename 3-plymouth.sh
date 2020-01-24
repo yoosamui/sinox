@@ -1,5 +1,7 @@
 #1/bin/bash
 
+apt update
+
 # run as root
 modules='/etc/initramfs-tools/modules'
 cp -p 'etc/modules' ${modules}
