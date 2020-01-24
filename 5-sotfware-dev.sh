@@ -43,6 +43,7 @@ network-manager-gnome \
 trayer \
 lxrandr \
 arandr \
+nmap \
 openbox \
 xbacklight \
 gufw \
