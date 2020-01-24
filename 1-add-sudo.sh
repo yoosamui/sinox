@@ -27,6 +27,8 @@ chown root:root /etc/sudoers
 echo "done. change to sudo"
 
 
+dpkg --add-architecture i386
+
 # fstab
 
 echo "# ram disk for docklight" >> /etc/fstab
