@@ -33,6 +33,9 @@ chown root:root /usr/share/themes
 
 cp -r usr_share_themes/Bluebird /usr/share/themes/Bluebird
 chown root:root -R /usr/share/themes/Bluebird
+
+cp  custom.cfg /boot/grub/custom.cfg
+chown root:root /boot/grub/custom.cfg
   
 echo "done"
 exit
