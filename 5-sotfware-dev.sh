@@ -66,6 +66,20 @@ vlc \
 chrony \
 notification-daemon -y
 
+
+# virtualbox
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian buster contrib"
+
+apt update
+sudo apt install virtualbox-6.0
+
+add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian buster contrib"
+
+
+
+
 # Add debian-breezetheme to alternatives with higher priority than debian packages:
 sudo update-alternatives --install /usr/share/sddm/themes/debian-theme sddm-debian-theme /usr/share/sddm/themes/debian-breeze 90
 sudo update-alternatives --config sddm-debian-theme
