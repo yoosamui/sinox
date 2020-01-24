@@ -14,20 +14,20 @@
 # For information about how to configure apt package sources,
 # see the sources.list(5) manual.
 
-deb http://ftp.plusline.net/debian/ buster contrib main non-free
-deb-src http://ftp.plusline.net/debian/ buster contrib main non-free
+deb http://ftp.plusline.net/debian/ buster main contrib non-free
+deb-src http://ftp.plusline.net/debian/ buster main contrib non-free
 
-# deb http://ftp.debianclub.org/debian/ buster/updates contrib main non-free
-# deb-src http://ftp.debianclub.org/debian/ buster/updates contrib main non-free
+# deb http://ftp.debianclub.org/debian/ buster/updates main contrib  non-free
+# deb-src http://ftp.debianclub.org/debian/ buster/updates  main contrib non-free
 
 # buster-updates, previously known as 'volatile'
-deb http://ftp.plusline.net/debian/ buster-updates contrib main non-free
-deb-src http://ftp.plusline.net/debian/ buster-updates contrib main non-free
+deb http://ftp.plusline.net/debian/ buster-updates  main contrib non-free
+deb-src http://ftp.plusline.net/debian/ buster-updates  main contrib non-free
 
 # deb http://httpredir.debian.org/debian/ stretch main contrib non-free
-#deb http://ftp.plusline.net/debian/ buster-proposed-updates contrib main non-free
-#deb http://security.debian.org/ buster/updates non-free main contrib
-#deb [arch=amd64] https://download.docker.com/linux/debian stretch stable
+# deb http://ftp.plusline.net/debian/ buster-proposed-updates contrib main non-free
+# deb http://security.debian.org/ buster/updates non-free main contrib
+# deb [arch=amd64] https://download.docker.com/linux/debian stretch stable
 # deb-src [arch=amd64] https://download.docker.com/linux/debian stretch stable
 # deb [arch=i386,amd64] https://deb.opera.com/opera-stable/ stable non-free
 # deb-src [arch=i386,amd64] https://deb.opera.com/opera-stable/ stable non-free
@@ -36,8 +36,8 @@ deb-src http://ftp.plusline.net/debian/ buster-updates contrib main non-free
 # deb http://deb.opera.com/opera-stable/ stable non-free
 
 #buster backports
-deb http://deb.debian.org/debian buster-backports main contrib non-free
-deb-src http://deb.debian.org/debian buster-backports main contrib non-free
+#deb http://deb.debian.org/debian buster-backports main contrib non-free
+#deb-src http://deb.debian.org/debian buster-backports main contrib non-free
 # deb http://download.virtualbox.org/virtualbox/debian buster contrib
 # deb-src http://download.virtualbox.org/virtualbox/debian buster contrib
 
