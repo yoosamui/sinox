@@ -18,5 +18,7 @@ vim \
 vim-athena \
 gnome-terminal \
 nemo \
+gmessage \
+gedit \
 notification-daemon -y
 
