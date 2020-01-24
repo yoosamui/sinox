@@ -25,11 +25,6 @@ cp -p automount.pkla /etc/polkit-1/localauthority/50-local.d/automount.pkla
 cp -rT -p home /home/$USER
 chown $USER:$USER -R /home/$USER
 
-
-
-#m -rf /home/yoo/sinox
-
-
 echo "done"
 exit
 

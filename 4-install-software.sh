@@ -68,9 +68,6 @@ rofi \
 transmission -y
 
 
-apt update
-apt autoremove -y
-
 echo "done"
 
 echo "install docker"

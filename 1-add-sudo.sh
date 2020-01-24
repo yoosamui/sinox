@@ -3,6 +3,8 @@
 #--------------------
 # needs root access
 #--------------------
+apt update 
+apt upgrade -y
 
 echo "get the sudo package"
 apt install sudo
@@ -20,8 +22,7 @@ sed -i ${c} ${file}
 cp -p ${file} ${dest}
 ls ${r}${file} -la
 
-apt update 
-apt upgrade -y
+
  
 
 echo "done"
