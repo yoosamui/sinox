@@ -61,6 +61,9 @@ sddm \
 sddm-theme-debian-breeze \
 kde-config-sddm \
 firefox-esr \
+gparted \
+vlc \
+chrony \
 notification-daemon -y
 
 # Add debian-breezetheme to alternatives with higher priority than debian packages:
@@ -68,3 +71,7 @@ sudo update-alternatives --install /usr/share/sddm/themes/debian-theme sddm-debi
 sudo update-alternatives --config sddm-debian-theme
 # services
 systemctl enable sddm.service 
+sudo systemctl disable NetworkManager-wait-online.service
+sudo systemctl disable smbd
+sudo systemctl disable systemd-timesyncd.service
+sudo systemctl enable chrony
