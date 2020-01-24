@@ -60,7 +60,6 @@ lxappearance \
 x11-xserver-utils \
 numix-icon-theme \
 redshift-gtk \
-plasma-desktop  \
 sddm \
 sddm-theme-debian-breeze \
 kde-config-sddm \
