@@ -24,6 +24,8 @@ vim-athena \
 gnome-terminal \
 rofi \
 nemo \
+gitk \
+thunar \
 blueman \
 pulseaudio \
 pavucontrol \
@@ -31,6 +33,7 @@ pasystray \
 gmessage \
 gedit \
 geany \
+leafpad \
 viewnior \
 clementine \
 compton \
@@ -43,11 +46,12 @@ openbox \
 xbacklight \
 gufw \
 galculator \
+gnome-calculator \
 clamav \
 clamav-daemon \
 clamtk \
 transmission-gtk \
-conky \
+baobab \
 lxtask \
 obconf \
 obmenu \
@@ -61,6 +65,7 @@ sddm \
 sddm-theme-debian-breeze \
 kde-config-sddm \
 firefox-esr \
+chromium \
 gparted \
 vlc \
 chrony \
@@ -73,12 +78,12 @@ wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key a
 sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian buster contrib"
 
 apt update
-sudo apt install virtualbox-6.0
+sudo apt install virtualbox-6.0 -y
 
 add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian buster contrib"
 
-
-
+# skype
+dpkg -i skypeforlinux-64.deb
 
 # Add debian-breezetheme to alternatives with higher priority than debian packages:
 sudo update-alternatives --install /usr/share/sddm/themes/debian-theme sddm-debian-theme /usr/share/sddm/themes/debian-breeze 90
