@@ -25,7 +25,7 @@ update-grub
 apt-get install firmware-linux-nonfree -y
 update-initramfs -u
 
-read -p "!!! reboot now !!!"
+
 
 
 

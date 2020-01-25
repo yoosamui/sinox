@@ -24,6 +24,7 @@ vim-athena \
 gnome-terminal \
 rofi \
 nemo \
+gnome-disk-utility \
 gitk \
 thunar \
 blueman \
@@ -57,6 +58,7 @@ lxtask \
 obconf \
 obmenu \
 fbxkb \
+disks \
 wireless-tools \
 lxappearance \
 x11-xserver-utils \
@@ -96,3 +98,5 @@ sudo systemctl disable NetworkManager-wait-online.service
 sudo systemctl disable smbd
 sudo systemctl disable systemd-timesyncd.service
 sudo systemctl enable chrony
+
+read -p "Please install drivers!!! reboot now !!!"
