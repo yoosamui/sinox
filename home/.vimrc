@@ -363,7 +363,7 @@ nnoremap <F4> :call SplitTab()<CR>
 " opens a 3 line error window if any errors are found.
 " If no errors, it closes any open cwindow.
 map! <C-S-b> :wa<CR> :Make<CR>
-command -nargs=* Make make -j6 <args> | cwindow 12
+command -nargs=* Make make <args> | cwindow 12
 
 
 " Clipboard

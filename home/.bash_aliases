@@ -10,9 +10,11 @@ alias vim="stty stop '' -ixoff; vim"
 
 # run gdb until program bombs & print stack trace
 alias gdb_trace="gdb --batch --ex r --ex bt --ex q --args"
+alias lsblk="lsblk -o name,mountpoint,label,size,uuid"
 
 # Add all my scripts to path
-PATH=$PATH:~/scripts
+# PATH=$PATH:/home/yoo/scripts/
+PATH=/home/yoo/scripts:$PATH
 
 # make an environment variable for my cscope db
 export CSCOPE_SRC=~/.cscope

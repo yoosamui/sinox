@@ -125,3 +125,4 @@ parse_git_branch() {
 PS1='\[\e];${debian_chroot:+($debian_chroot)}\w\a\]\[\033[01;32m\]\u@\h\[\033[01;31m\]$(parse_git_branch)\[\033[00m\]\$ '
 
 
+export  MAKEFLAGS="-j9"
