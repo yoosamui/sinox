@@ -34,9 +34,6 @@
   <item label="Put the system into hibernation">
     <action name="Execute"><execute>systemctl hibernate</execute></action>
   </item>
-  <item label="Put the system into hybrid-sleep state">
-    <action name="Execute"><execute>systemctl hybrid-sleep</execute></action>
-  </item>
   <separator />
   <item label="Exit">
     <action name="Execute"><execute>/home/yoo/scripts/openbox-exit.sh</execute></action>
