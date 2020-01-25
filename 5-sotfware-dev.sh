@@ -75,10 +75,10 @@ vlc \
 chrony \
 notification-daemon -y
 
-apt install gnupg gnupg2 gnupg1gnu
+apt install gnupg gnupg2 gnupg1
 apt update
 
-echo install virtuallbox
+echo "install virtuallbox"
 
 # virtualbox
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
@@ -92,8 +92,8 @@ add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian buster 
 
 # skype
 wget https://repo.skype.com/latest/skypeforlinux-64.deb
-dpkg -i skypeforlinux-64.deb
-
+sudo dpkg -i skypeforlinux-64.deb
+rm -f skypeforlinux-64.deb
 # Add debian-breezetheme to alternatives with higher priority than debian packages:
 sudo update-alternatives --install /usr/share/sddm/themes/debian-theme sddm-debian-theme /usr/share/sddm/themes/debian-breeze 90
 sudo update-alternatives --config sddm-debian-theme
