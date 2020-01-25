@@ -75,9 +75,10 @@ vlc \
 chrony \
 notification-daemon -y
 
+apt install gnupg gnupg2 gnupg1gnu
 apt update
-read -p "Install soft part1 ok"
 
+echo install virtuallbox
 
 # virtualbox
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -

@@ -25,7 +25,7 @@ update-grub
 apt-get install firmware-linux-nonfree -y
 sudo update-initramfs -u
 
-
+echo "done"
 
 
 
