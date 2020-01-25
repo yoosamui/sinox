@@ -57,7 +57,6 @@ lxtask \
 obconf \
 obmenu \
 fbxkb \
-disks \
 wireless-tools \
 lxappearance \
 x11-xserver-utils \
@@ -70,30 +69,10 @@ firefox-esr \
 chromium \
 gparted \
 vlc \
+gnome-disk-utility \
+gnome-calendar \
 chrony \
 notification-daemon -y
-
-apt install gnupg gnupg2 gnupg1 -y
-
-apt update
-apt upgrade -y 
-
-# virtualbox
-wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
-wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
-sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian buster contrib"
-
-apt update
-sudo apt install virtualbox-6.0 -y
-add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian buster contrib"
-
-# skype
-wget https://repo.skype.com/latest/skypeforlinux-64.deb
-dpkg -i skypeforlinapux-64.deb
-rm -f skypeforlinux-64.deb
-
-
-
 
 echo "done"
 
