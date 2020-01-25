@@ -12,7 +12,7 @@ add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian buster 
 # skype
 wget https://repo.skype.com/latest/skypeforlinux-64.deb
 apt update
-dpkg -i skypeforlinapux-64.deb
+sudo dpkg -i skypeforlinapux-64.deb
 rm -f skypeforlinux-64.deb
 
 echo "done"
