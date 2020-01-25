@@ -23,7 +23,7 @@ apt-get install plymouth-themes -y
 update-grub
 
 apt-get install firmware-linux-nonfree -y
-update-initramfs -u
+sudo update-initramfs -u
 
 
 
