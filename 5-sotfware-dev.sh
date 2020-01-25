@@ -75,6 +75,7 @@ vlc \
 chrony \
 notification-daemon -y
 
+apt update
 read -p "Install soft part1 ok"
 
 
