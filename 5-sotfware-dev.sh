@@ -25,6 +25,7 @@ gnome-terminal \
 rofi \
 nemo \
 gnome-disk-utility \
+gnome-calendar \
 gitk \
 thunar \
 blueman \
