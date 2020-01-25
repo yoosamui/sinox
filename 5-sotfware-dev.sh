@@ -87,13 +87,13 @@ sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian bu
 
 apt update
 sudo apt install virtualbox-6.0 -y
-
 add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian buster contrib"
 
 # skype
 wget https://repo.skype.com/latest/skypeforlinux-64.deb
-sudo dpkg -i skypeforlinux-64.deb
+dpkg -i skypeforlinux-64.deb
 rm -f skypeforlinux-64.deb
+
 # Add debian-breezetheme to alternatives with higher priority than debian packages:
 sudo update-alternatives --install /usr/share/sddm/themes/debian-theme sddm-debian-theme /usr/share/sddm/themes/debian-breeze 90
 sudo update-alternatives --config sddm-debian-theme
