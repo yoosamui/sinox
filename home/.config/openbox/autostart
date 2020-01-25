@@ -48,7 +48,7 @@ compton -b -c &
 
 redshift-gtk &
 
-xautolock -time 15 -locker "systemctl suspend" &
+xautolock -time 30 -locker "systemctl suspend" &
 
 
 
