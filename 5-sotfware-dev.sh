@@ -43,6 +43,8 @@ trayer \
 lxrandr \
 arandr \
 nmap \
+gnome-disk-utility \
+gnome-calendar \
 openbox \
 xbacklight \
 gufw \
@@ -72,6 +74,8 @@ gparted \
 vlc \
 chrony \
 notification-daemon -y
+
+read -p "Install soft part1 ok"
 
 
 # virtualbox
