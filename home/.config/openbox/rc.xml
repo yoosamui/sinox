@@ -85,7 +85,7 @@
     </font>
     <font place="MenuItem">
       <name>sans</name>
-      <size>6</size>
+      <size>9</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -777,11 +777,13 @@
       <mousebind button="Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
+	<wrap>no</wrap>
         </action>
       </mousebind>
       <mousebind button="Down" action="Click">
         <action name="GoToDesktop">
           <to>next</to>
+	<wrap>no</wrap>
         </action>
       </mousebind>
       <mousebind button="A-Up" action="Click">
@@ -973,6 +975,7 @@
 -->
     <application class="*">
       <position force="no">
+	 <focus>yes</focus>
         <x>center</x>
         <y>center</y>
       </position>

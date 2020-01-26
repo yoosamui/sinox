@@ -44,6 +44,7 @@ lxrandr \
 arandr \
 nmap \
 openbox \
+openbox-menu \
 xbacklight \
 gufw \
 galculator \
