@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # skype
-get https://repo.skype.com/latest/skypeforlinux-64.deb
+wget https://repo.skype.com/latest/skypeforlinux-64.deb
 sudo dpkg -i skypeforlinapux-64.deb
 
 # virtualbox
