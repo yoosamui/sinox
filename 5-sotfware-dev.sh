@@ -41,6 +41,7 @@ xautolock \
 network-manager-gnome \
 trayer \
 lxrandr \
+curl \
 arandr \
 nmap \
 openbox \
