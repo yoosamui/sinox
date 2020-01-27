@@ -66,6 +66,9 @@ chown -R root:root /usr/share/dbus-1/services/org.freedesktop.Notifications.serv
 echo "nitrogen change user"
 file1='/home/'$USER'/.config/nitrogen/bg-saved.cfg'
 file2='/home/'$USER'/.config/nitrogen/nitrogen.cfg'
+echo "file1"${file1}
+echo "file2"${file2}
+
 p1='s/'
 p2='/g'
 r='/'
