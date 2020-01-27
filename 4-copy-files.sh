@@ -70,7 +70,7 @@ p1='s/'
 p2='/g'
 r='/'
 l='USER'
-c=${p1}${l}{r}$USER{p2}
+c=${p1}${l}{r}$USER${p2}
 sed -i ${c} ${file1}
 sed -i ${c} ${file2}
 
