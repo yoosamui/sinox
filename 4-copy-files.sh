@@ -63,6 +63,21 @@ echo "copy Notifications.service"
 cp -r services/org.freedesktop.Notifications.service /usr/share/dbus-1/services/ 
 chown -R root:root /usr/share/dbus-1/services/org.freedesktop.Notifications.service 
 
+echo "nitrogen change user"
+file1='/home/'$USER'/.config/nitrogen/bg-saved.cfg'
+file2='/home/'$USER'/.config/nitrogen/nitrogen.cfg'
+p1='s/'
+p2='/g'
+r='/'
+l='USER'
+c=${p1}${l}{r}$USER{p2}
+sed -i ${c} ${file1}
+sed -i ${c} ${file2}
+
+
+
+
+
 #- move out in the clone script
 #cp  custom.cfg /boot/grub/custom.cfg
 #chown root:root /boot/grub/custom.cfg
