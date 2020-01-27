@@ -12,10 +12,6 @@ alias vim="stty stop '' -ixoff; vim"
 alias gdb_trace="gdb --batch --ex r --ex bt --ex q --args"
 alias lsblk="lsblk -o name,mountpoint,label,size,uuid"
 
-# Add all my scripts to path
-# PATH=$PATH:/home/yoo/scripts/
-PATH=/home/yoo/scripts:$PATH
-
 # make an environment variable for my cscope db
 export CSCOPE_SRC=~/.cscope
 export CSCOPE_EDITOR=vim

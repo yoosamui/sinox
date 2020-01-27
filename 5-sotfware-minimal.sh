@@ -43,7 +43,7 @@ sddm-theme-debian-breeze \
 chrony -y
 
 echo "done"
-#network-manager-gnome \
+#network-manager-gnome \ nm-applet
 #kde-config-sddm \
 #notification-daemon -y
 

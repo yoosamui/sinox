@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=/home/yoo/docklight_3.0.orig/src/docklight
+Exec=/var/sinox/docklight-3.0/docklight
 X-GNOME-Autostart-enabled=true
 NoDisplay=false
 Hidden=false

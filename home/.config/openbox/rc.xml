@@ -85,7 +85,7 @@
     </font>
     <font place="MenuItem">
       <name>sans</name>
-      <size>9</size>
+      <size>8</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -94,7 +94,7 @@
     </font>
     <font place="ActiveOnScreenDisplay">
       <name>sans</name>
-      <size>9</size>
+      <size>8</size>
       <!-- font size in points -->
       <weight>bold</weight>
       <!-- 'bold' or 'normal' -->
@@ -103,7 +103,7 @@
     </font>
     <font place="InactiveOnScreenDisplay">
       <name>sans</name>
-      <size>9</size>
+      <size>8</size>
       <!-- font size in points -->
       <weight>bold</weight>
       <!-- 'bold' or 'normal' -->
@@ -128,7 +128,7 @@
       <name>3</name>
       <name>4</name>
     </names>
-    <popupTime>875</popupTime>
+    <popupTime>0</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
        desktops.  Set this to 0 to disable the popup. -->
   </desktops>
@@ -181,12 +181,12 @@
     <!-- auto lock light dm light-locker-command -l-->
     <keybind key="W-L">
       <action name="Execute">
-        <command>/home/yoo/scripts/autolock.sh</command>
+        <command>/var/sinox/scripts/autolock.sh</command>
       </action>
     </keybind>
     <keybind key="W-N">
       <action name="Execute">
-        <command>/home/yoo/.config/openbox/nitrogenium.sh</command>
+        <command>/var/sinox/scripts/nitrogenium.sh</command>
       </action>
     </keybind>
     <!-- Keybindings for desktop switching -->
@@ -353,7 +353,7 @@
         <command>rofi -combi-modi window,drun,ssh  -font "hack 10" -show combi</command>
       </action>
     </keybind>
-<keybind key="A-F3">
+    <keybind key="A-F3">
       <action name="Execute">
         <command>xfce4-appfinder</command>
       </action>
@@ -367,17 +367,17 @@
     <!-- >AudioVolume -->
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-        <command>/home/yoo/scripts/pulse_audio.sh +</command>
+        <command>/var/sinox/scripts/pulse_audio.sh +</command>
       </action>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-        <command>/home/yoo/scripts/pulse_audio.sh -</command>
+        <command>/var/sinox/scripts/pulse_audio.sh -</command>
       </action>
     </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
-        <command>/home/yoo/scripts/pulse_audio.sh mute</command>
+        <command>/var/sinox/scripts/pulse_audio.sh mute</command>
       </action>
     </keybind>
     <!-- 
@@ -386,12 +386,12 @@
     <!--Screen Brightness -->
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
-        <command>/home/yoo/scripts/brightness.sh 1.0</command>
+        <command>/var/sinox/scripts/brightness.sh 1.0</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessDown">
       <action name="Execute">
-        <command>/home/yoo/scripts/brightness.sh 0.8</command>
+        <command>/var/sinox/scripts/brightness.sh 0.8</command>
       </action>
     </keybind>
     <!-- Keybindings for window switching with the arrow keys -->
@@ -777,13 +777,13 @@
       <mousebind button="Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
-	<wrap>no</wrap>
+          <wrap>no</wrap>
         </action>
       </mousebind>
       <mousebind button="Down" action="Click">
         <action name="GoToDesktop">
           <to>next</to>
-	<wrap>no</wrap>
+          <wrap>no</wrap>
         </action>
       </mousebind>
       <mousebind button="A-Up" action="Click">
@@ -975,7 +975,7 @@
 -->
     <application class="*">
       <position force="no">
-	 <focus>yes</focus>
+        <focus>yes</focus>
         <x>center</x>
         <y>center</y>
       </position>
@@ -992,8 +992,5 @@
       <fullscreen>no</fullscreen>
       <maximized>no</maximized>
     </application>
-    
-    
-    
   </applications>
 </openbox_config>
