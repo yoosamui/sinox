@@ -59,7 +59,9 @@ cp -r usr/share/themes/. /usr/share/themes/
 find /usr/share/themes -type f -print0 | xargs -0 chown -R $USER:$USER *
 find /usr/share/themes -type d -print0 | xargs -0 chown -R $USER:$USER *
 
-
+echo "copy Notifications.service"
+cp -r services/org.freedesktop.Notifications.service /usr/share/dbus-1/services/ 
+chown -R root:root /usr/share/dbus-1/services/org.freedesktop.Notifications.service 
 
 #- move out in the clone script
 #cp  custom.cfg /boot/grub/custom.cfg
