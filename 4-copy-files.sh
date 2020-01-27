@@ -68,7 +68,6 @@ file1='/home/'$USER'/.config/nitrogen/bg-saved.cfg'
 file2='/home/'$USER'/.config/nitrogen/nitrogen.cfg'
 echo "file1"${file1}
 echo "file2"${file2}
-exit
 
 p1='s/'
 p2='/g'
