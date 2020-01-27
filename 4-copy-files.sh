@@ -25,8 +25,9 @@ cp -p automount.pkla /etc/polkit-1/localauthority/50-local.d/automount.pkla
 cp -r home/. /home/$USER
 chown $USER:$USER -R /home/$USER/.
 
-mkdir -p /usr/share/dbus-1/services
-cp -p services/org.freedesktop.Notifications.service /usr/share/dbus-1/services
+#-  use the kde Notifications
+#mkdir -p /usr/share/dbus-1/services
+#cp -p services/org.freedesktop.Notifications.service /usr/share/dbus-1/services
 
 mkdir -p /usr/share/themes
 chown root:root /usr/share/themes
@@ -34,8 +35,9 @@ chown root:root /usr/share/themes
 cp -r usr_share_themes/Bluebird /usr/share/themes/Bluebird
 chown root:root -R /usr/share/themes/Bluebird
 
-cp  custom.cfg /boot/grub/custom.cfg
-chown root:root /boot/grub/custom.cfg
+#- move out in the clone script
+#cp  custom.cfg /boot/grub/custom.cfg
+#chown root:root /boot/grub/custom.cfg
   
 echo "done"
 exit
