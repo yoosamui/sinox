@@ -1,4 +1,4 @@
-git#!/bin/bash
+#!/bin/bash
 
 #--------------------
 # needs root access
