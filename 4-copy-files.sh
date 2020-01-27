@@ -17,10 +17,10 @@ find /home/$USER -type d -print0 | xargs -0 chown -R $USER:$USER *
 find /home/$USER -type f -print0 | xargs -0 chmod -R 644
 find /home/$USER -type d -print0 | xargs -0 chmod -R 755
 
-echo "copy var"
+echo "copy to var"
 # copy to var
-mkdir -p /var/sinox
-cp var/sinox/. /var/sinox/
+mkdir -p /var/sinoxls
+cp -r var/sinox/. /var/sinox/
 echo "change var permisions"
 
 chown $USER:$USER /var/sinox
@@ -43,7 +43,7 @@ find /var/sinox/scripts -type f -print0 | xargs -0 chmod a+x
 echo "copy automount.pkla"
 chown root:root automount.pkla
 mkdir -p /etc/polkit-1/localauthority/50-local.d/automount.pkla
-cp -p automount.pkla /etc/polkit-1/localauthority/50-local.d/automount.pkla
+cp -r -p automount.pkla /etc/polkit-1/localauthority/50-local.d/automount.pkla
 
 #-  use the kde Notifications
 #mkdir -p /usr/share/dbus-1/services
