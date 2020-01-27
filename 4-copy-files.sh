@@ -7,7 +7,9 @@
 echo "copy user files"
 
 # copy home
-cp -r home/. /home/$USER
+cp -r home/. /home/$USER/
+exit
+
 #chown $USER:$USER -R /home/$USER/.
 find /home/$USER -type f -print0 | xargs -0 chown -R $USER:$USER *
 find /home/$USER -type d -print0 | xargs -0 chown -R $USER:$USER *
