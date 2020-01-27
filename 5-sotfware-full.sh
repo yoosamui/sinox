@@ -39,7 +39,7 @@ compton \
 nitrogen \
 xautolock \
 network-manager-gnome \
-trayer \
+lxpanel \
 curl \
 arandr \
 nmap \

@@ -30,7 +30,7 @@ gedit \
 geany \
 viewnior \
 compton \
-trayer \
+lxpanel \
 openbox \
 openbox-menu \
 gnome-calculator \
