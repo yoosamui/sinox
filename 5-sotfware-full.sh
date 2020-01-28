@@ -38,6 +38,7 @@ clementine \
 compton \
 nitrogen \
 xautolock \
+network-manager \
 network-manager-gnome \
 package-update-indicator \
 lxpanel \
@@ -73,6 +74,10 @@ vlc \
 gnome-disk-utility \
 gnome-calendar \
 chrony \
+samba \
+smbclient \
+cifs-utils \
+nfs-common \
 notification-daemon -y
 
 echo "done"
