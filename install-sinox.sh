@@ -7,6 +7,7 @@ sh ./4-copy-files.sh
 sh ./5-sotfware-full.sh
 sh ./6-software-extra.sh
 sh ./7-optimizer.sh
+sh ./8-post-install.sh
 
 echo "done"
 
