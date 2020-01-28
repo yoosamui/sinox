@@ -19,8 +19,8 @@ echo "install skype"
 wget https://repo.skype.com/latest/skypeforlinux-64.deb
 sudo dpkg -i skypeforlinapux-64.deb
 
-lspci 
-echo "SINOX complete. is needed install the drivers now and the reboot."
+echo "--------------------------------------------------------------------------------------"
+echo "SINOX complete!!! que carallo!!!. is you need install the drivers now and then reboot."
 
 
 
