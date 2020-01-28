@@ -14,6 +14,7 @@ ls /usr/share/sddm/faces -al
 
 
 # skype
+apt update
 echo "install skype" 
 wget https://repo.skype.com/latest/skypeforlinux-64.deb
 sudo dpkg -i skypeforlinapux-64.deb
