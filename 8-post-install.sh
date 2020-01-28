@@ -20,7 +20,7 @@ wget https://repo.skype.com/latest/skypeforlinux-64.deb
 sudo dpkg -i skypeforlinapux-64.deb
 
 echo "--------------------------------------------------------------------------------------"
-echo "SINOX complete!!! que carallo!!!. is you need install the drivers now and then reboot."
+echo "SINOX complete!!! que carallo!!!. if you need install the drivers now and then reboot."
 
 
 
