@@ -18,7 +18,7 @@ apt update
 echo "install skype" 
 wget https://repo.skype.com/latest/skypeforlinux-64.deb
 skype_path='/home/'$USER'/sinox/skypeforlinapux-64.deb'
-dpkg -i ${skype_path}
+sudo dpkg -i ${skype_path}
 
 echo "--------------------------------------------------------------------------------------"
 echo "SINOX complete que carallo!!! ;o)"
