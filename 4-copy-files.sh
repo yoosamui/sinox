@@ -49,9 +49,16 @@ cp -r -p automount.pkla /etc/polkit-1/localauthority/50-local.d/automount.pkla
 #mkdir -p /usr/share/dbus-1/services
 #cp -p services/org.freedesktop.Notifications.service /usr/share/dbus-1/services
 
-echo "copy themes and change permisions"
+echo "copy themes icons and change permisions"
 mkdir -p /usr/share/themes
 chown -R root:root /usr/share/themes
+
+user_themes_folder='/home/'$USER'/.themes'
+chown -R $USER:$USER ${user_themes_folder}
+
+user_icons_folder='/home/'$USER'/.icons'
+chown -R $USER:$USER ${user_icons_folder}
+
 
 cp -r usr/share/themes/. /usr/share/themes/
 #chown -R root:root  /usr/share/themes
@@ -77,6 +84,11 @@ c=${p1}${l}${r}$USER${p2}
 sed -i ${c} ${file1}
 sed -i ${c} ${file2}
 
+# avatar
+echo "copy face avatar" 
+cp -r usr/share/sddm/faces/.face.icon /usr/share/sddm/faces/
+chown -R root:root /usr/share/sddm/faces/.face.icon
+ls /usr/share/sddm/faces -al
 
 
 

@@ -39,6 +39,7 @@ compton \
 nitrogen \
 xautolock \
 network-manager-gnome \
+package-update-indicator \
 lxpanel \
 curl \
 arandr \
