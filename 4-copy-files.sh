@@ -86,6 +86,9 @@ sed -i ${c} ${file2}
 
 # avatar
 echo "copy face avatar" 
+mkdir -p /usr/share/sddm/faces/
+chown -R root:root /usr/share/sddm/faces
+
 cp -r usr/share/sddm/faces/.face.icon /usr/share/sddm/faces/
 chown -R root:root /usr/share/sddm/faces/.face.icon
 ls /usr/share/sddm/faces -al
