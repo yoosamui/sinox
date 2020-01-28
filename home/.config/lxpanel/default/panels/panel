@@ -9,7 +9,7 @@ Global {
   width=100
   height=26
   transparent=1
-  tintcolor=#000000
+  tintcolor=#00b0eb
   alpha=0
   setdocktype=1
   setpartialstrut=1
@@ -68,7 +68,7 @@ Plugin {
   Config {
     ClockFmt=%R - %A %d/%m/%Y
     TooltipFmt=%A %x 
-    BoldFont=1
+    BoldFont=0
     IconOnly=0
     CenterText=0
   }
@@ -93,7 +93,7 @@ Plugin {
 Plugin {
   type=volume
   Config {
-    CardNumber=0
+    CardNumber=-1
     MasterChannel=Master
   }
 }
