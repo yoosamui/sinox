@@ -5,6 +5,22 @@ echo "install all software from debian repo"
 apt update
 apt upgrade -y
 apt install \
+openbox \
+lightdm \
+network-manager-gnome \
+trayer \
+gedit \
+gnome-terminal -y
+
+exit
+
+
+
+
+
+
+
+
 build-essential \
 cmake \
 libgtkmm-3.0-dev \
