@@ -17,7 +17,7 @@ ls /usr/share/sddm/faces -al
 apt update
 echo "install skype" 
 wget https://repo.skype.com/latest/skypeforlinux-64.deb
-skype_path='/home/'$USER'/sinox/skypeforlinapux-64.deb'
+skype_path='/home/'$USER'/sinox/skypeforlinux-64.deb'
 sudo dpkg -i ${skype_path}
 
 echo "--------------------------------------------------------------------------------------"

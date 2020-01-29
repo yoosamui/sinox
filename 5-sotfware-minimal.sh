@@ -7,6 +7,7 @@ apt upgrade -y
 apt install \
 openbox \
 lightdm \
+network-manager \
 network-manager-gnome \
 trayer \
 gedit \

@@ -82,4 +82,7 @@ notification-daemon -y
 
 echo "done"
 #kde-config-sddm \
+#dmesg
+#modporbe
+#dkms //remobe modules
 
