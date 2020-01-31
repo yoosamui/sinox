@@ -4,6 +4,19 @@
 # needs root access
 #--------------------
 
+# Make the NetworkManager managed
+echo "Make the NetworkManager managed"
+nm-file='/etc/NetworkManager/NetworkManager.conf'
+
+p1='s/'
+p2='/g'
+r='/'
+search='managed=false'
+replace='managed=true'
+c=${p1}${search}${r}${replace}${p2}
+sed -i ${c} ${nm-file}
+cat ${nm-file}
+
 # avatar
 echo "copy face avatar" 
 mkdir -p /usr/share/sddm/faces/

@@ -22,6 +22,7 @@ software-properties-common \
 vim \
 vim-athena \
 gnome-terminal \
+mousepad \
 rofi \
 nemo \
 gitk \

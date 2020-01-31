@@ -1,12 +1,13 @@
-deb http://ftp.plusline.net/debian/ buster main contrib non-free
-deb-src http://ftp.plusline.net/debian/ buster main contrib non-free
+deb http://mirror.kku.ac.th/debian/ buster main contrib non-free
+deb-src http://mirror.kku.ac.th/debian/ buster main contrib non-free
 
 # buster-updates, previously known as 'volatile'
-deb http://ftp.plusline.net/debian/ buster-updates  main contrib non-free
-deb-src http://ftp.plusline.net/debian/ buster-updates  main contrib non-free
+deb http://mirror.kku.ac.th/debian/ buster-updates main contrib non-free
+deb-src http://mirror.kku.ac.th/debian/ buster-updates main contrib non-free
 
 
 # Debian 10 "Buster"
 deb http://deb.debian.org/debian buster-backports main contrib non-free
+
 
 
