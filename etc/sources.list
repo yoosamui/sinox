@@ -1,3 +1,15 @@
+# Debian 10 "Buster"
+# sinox source list thailand 
+#
+# Component
+#
+# There are normally three components which can be used on Debian, namely:
+#
+#    main - This contains packages that are part of Debian distribution. These packages are DFSG compliant.
+#    contrib -The packages here are DFSG compliant, but contains packages which are not in the main repository.
+#    non-free - This contains software packages which do not comply with the DFSG.
+
+
 deb http://mirror.kku.ac.th/debian/ buster main contrib non-free
 deb-src http://mirror.kku.ac.th/debian/ buster main contrib non-free
 
@@ -5,9 +17,14 @@ deb-src http://mirror.kku.ac.th/debian/ buster main contrib non-free
 deb http://mirror.kku.ac.th/debian/ buster-updates main contrib non-free
 deb-src http://mirror.kku.ac.th/debian/ buster-updates main contrib non-free
 
+deb http://security.debian.org/debian-security buster/updates main contrib non-free
+deb-src http://security.debian.org/debian-security buster/updates main contrib non-free
 
-# Debian 10 "Buster"
+
+# we also need the Backports, contrib, and non-free components,
+# add buster-backports lines. For example, for Debian 10 Buster:
+
 deb http://deb.debian.org/debian buster-backports main contrib non-free
-
+deb-src http://deb.debian.org/debian buster-backports main contrib non-free
 
 
