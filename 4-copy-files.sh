@@ -19,15 +19,15 @@ echo "copy to var"
 mkdir -p /var/sinox
 cp -r var/sinox/. /var/sinox/
 chown -R $USER:$USER /var/sinox
+
 echo "change var permisions"
 find /var/sinox/docklight-3.0 -type f -print0 | xargs -0 chown -R $USER:$USER *
 find /var/sinox/docklight-3.0 -type d -print0 | xargs -0 chown -R $USER:$USER *
 chmod a+x /var/sinox/docklight-3.0/docklight
-chown -R $USER:$USER /var/sinox/docklight-3.0
 chown -R $USER:$USER /var/sinox/docklight-3.0/docklight
 
 find /var/sinox/scripts -type f -print0 | xargs -0 chmod a+x
-
+chown -R $USER:$USER /var/sinox/scripts/*
 
 echo "copy automount.pkla"
 mkdir -p /etc/polkit-1/localauthority/50-local.d/automount.pkla
