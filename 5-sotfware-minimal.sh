@@ -27,6 +27,8 @@ thunar \
 lxpanel \
 rofi \
 redshift-gtk \
+gmessage \
+compton \
 sddm \
 sddm-theme-debian-breeze \
 gnome-terminal -y
