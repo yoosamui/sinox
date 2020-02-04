@@ -6,11 +6,25 @@ apt update
 apt upgrade -y
 
 apt install \
+build-essential \
+cmake \
+libgtkmm-3.0-dev \
+libwnck-3-dev \
+autotools-dev \
+autoconf \
+libtool \
+gettext \
+autopoint \
+intltool \
+clang-format \
+software-properties-common \
 openbox \
 network-manager \
 network-manager-gnome \
 trayer \
 gedit \
+thunar \
+lxpanel \
 rofi \
 redshift-gtk \
 sddm \
