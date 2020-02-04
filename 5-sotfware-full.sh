@@ -43,6 +43,7 @@ network-manager \
 network-manager-gnome \
 package-update-indicator \
 lxpanel \
+iperf \
 curl \
 arandr \
 nmap \

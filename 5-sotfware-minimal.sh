@@ -4,13 +4,17 @@ echo "install all software from debian repo"
 
 apt update
 apt upgrade -y
+
 apt install \
 openbox \
-lightdm \
 network-manager \
 network-manager-gnome \
 trayer \
 gedit \
+rofi \
+redshift-gtk \
+sddm \
+sddm-theme-debian-breeze \
 gnome-terminal -y
 
 exit

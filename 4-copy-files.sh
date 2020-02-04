@@ -3,14 +3,12 @@
 #--------------------
 # needs root access
 #--------------------
-
-echo "copy user files"
+echo "copy remaster files"
 
 # copy home
 cp -r home/. /home/$USER/
 
 echo "change HOME permisions"
-#chown $USER:$USER -R /home/$USER/.
 find /home/$USER -type f -print0 | xargs -0 chown -R $USER:$USER *
 find /home/$USER -type d -print0 | xargs -0 chown -R $USER:$USER *
 
@@ -18,32 +16,20 @@ find /home/$USER -type f -print0 | xargs -0 chmod -R 644
 find /home/$USER -type d -print0 | xargs -0 chmod -R 755
 
 echo "copy to var"
-# copy to var
-mkdir -p /var/sinoxls
+mkdir -p /var/sinox
 cp -r var/sinox/. /var/sinox/
-echo "change var permisions"
-
 chown -R $USER:$USER /var/sinox
+echo "change var permisions"
 find /var/sinox/docklight-3.0 -type f -print0 | xargs -0 chown -R $USER:$USER *
 find /var/sinox/docklight-3.0 -type d -print0 | xargs -0 chown -R $USER:$USER *
 chmod a+x /var/sinox/docklight-3.0/docklight
-
 find /var/sinox/scripts -type f -print0 | xargs -0 chmod a+x
 
 
-#find home -type f -print0 | xargs -0 sudo chmod -R 644
-#find home -type d -print0 | xargs -0 sudo chmod -R 755
-#find home/scripts -type d -print0 | xargs -0 sudo chmod a+x *
-
-#chown -R $USER:$USER home/ *
-#chown -R $USER:$USER home/ .
-
-#chmod a+x home/docklight_3.0.orig/src/docklight 
-
 echo "copy automount.pkla"
-chown root:root automount.pkla
 mkdir -p /etc/polkit-1/localauthority/50-local.d/automount.pkla
-cp -r -p automount.pkla /etc/polkit-1/localauthority/50-local.d/automount.pkla
+cp -r services/automount.pkla /etc/polkit-1/localauthority/50-local.d/automount.pkla
+chown root:root /etc/polkit-1/localauthority/50-local.d/automount.pkla
 
 #-  use the kde Notifications
 #mkdir -p /usr/share/dbus-1/services
@@ -75,7 +61,6 @@ file1='/home/'$USER'/.config/nitrogen/bg-saved.cfg'
 file2='/home/'$USER'/.config/nitrogen/nitrogen.cfg'
 echo "file1"${file1}
 echo "file2"${file2}
-
 p1='s/'
 p2='/g'
 r='/'
@@ -88,13 +73,10 @@ sed -i ${c} ${file2}
 echo "copy face avatar" 
 mkdir -p /usr/share/sddm/faces/
 chown -R root:root /usr/share/sddm/faces
-
 cp usr/share/sddm/faces/.face.icon /usr/share/sddm/faces/.face.icon
 
 #chown -R root:root /usr/share/sddm/faces/.face.icon
 ls /usr/share/sddm/faces -al
-
-
 
 
 #- move out in the clone script
