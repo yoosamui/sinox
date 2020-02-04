@@ -4,7 +4,7 @@ apt update
 
 # run as root
 modules='/etc/initramfs-tools/modules'
-cp -p 'etc/modules' ${modules}
+cp -p 'etc/initramfs-tools/modules' ${modules}
 chown root:root ${modules}
 
 grub='/etc/default/grub'
@@ -22,9 +22,8 @@ apt-get install plymouth-themes -y
 # firmware-linux-nonfree. To do that, execute the following command:
 update-grub
 
-apt-get install firmware-linux-nonfree -y
-sudo update-initramfs -u
-
+#apt-get install firmware-linux-nonfree -y
+sudo update-initramfs -u -k all
 echo "done"
 
 
