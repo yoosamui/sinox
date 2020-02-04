@@ -79,9 +79,9 @@ cp usr/share/sddm/faces/.face.icon /usr/share/sddm/faces/.face.icon
 ls /usr/share/sddm/faces -al
 
 
-#- move out in the clone script
-#cp  custom.cfg /boot/grub/custom.cfg
-#chown root:root /boot/grub/custom.cfg
+#- grub template
+cp  boot/grub/sinox-custom.cfg /boot/grub/sinox-custom.cfg
+chown root:root /boot/grub/sinox-custom.cfg
   
 
 
