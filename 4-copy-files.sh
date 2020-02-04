@@ -23,6 +23,9 @@ echo "change var permisions"
 find /var/sinox/docklight-3.0 -type f -print0 | xargs -0 chown -R $USER:$USER *
 find /var/sinox/docklight-3.0 -type d -print0 | xargs -0 chown -R $USER:$USER *
 chmod a+x /var/sinox/docklight-3.0/docklight
+chown -R $USER:$USER /var/sinox/docklight-3.0
+chown -R $USER:$USER /var/sinox/docklight-3.0/docklight
+
 find /var/sinox/scripts -type f -print0 | xargs -0 chmod a+x
 
 
