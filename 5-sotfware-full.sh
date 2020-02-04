@@ -25,8 +25,8 @@ gnome-terminal \
 mousepad \
 rofi \
 nemo \
+keepassxc \
 gitk \
-thunar \
 blueman \
 pulseaudio \
 pavucontrol \
@@ -61,6 +61,7 @@ lxtask \
 obconf \
 obmenu \
 fbxkb \
+bleachbit \
 wireless-tools \
 lxappearance \
 x11-xserver-utils \
@@ -69,12 +70,12 @@ redshift-gtk \
 sddm \
 sddm-theme-debian-breeze \
 firefox-esr \
-chromium \
 gparted \
 vlc \
 gnome-disk-utility \
 gnome-calendar \
 chrony \
+grub-customizer \
 samba \
 smbclient \
 cifs-utils \

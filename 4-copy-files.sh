@@ -23,7 +23,7 @@ mkdir -p /var/sinoxls
 cp -r var/sinox/. /var/sinox/
 echo "change var permisions"
 
-chown $USER:$USER /var/sinox
+chown -R $USER:$USER /var/sinox
 find /var/sinox/docklight-3.0 -type f -print0 | xargs -0 chown -R $USER:$USER *
 find /var/sinox/docklight-3.0 -type d -print0 | xargs -0 chown -R $USER:$USER *
 chmod a+x /var/sinox/docklight-3.0/docklight

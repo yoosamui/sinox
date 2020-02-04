@@ -353,9 +353,9 @@
         <command>rofi -combi-modi window,drun,ssh  -font "hack 10" -show combi</command>
       </action>
     </keybind>
-    <keybind key="A-F3">
+    <keybind key="C-A-t">
       <action name="Execute">
-        <command>xfce4-appfinder</command>
+        <command>gnome-terminal</command>
       </action>
     </keybind>
     <!--
