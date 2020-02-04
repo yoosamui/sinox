@@ -83,6 +83,8 @@ ls /usr/share/sddm/faces -al
 #cp  custom.cfg /boot/grub/custom.cfg
 #chown root:root /boot/grub/custom.cfg
   
+
+
 echo "done"
 exit
 
