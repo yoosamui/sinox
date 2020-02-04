@@ -70,6 +70,7 @@ redshift-gtk \
 sddm \
 sddm-theme-debian-breeze \
 firefox-esr \
+e2fsprogs \
 gparted \
 vlc \
 gnome-disk-utility \
