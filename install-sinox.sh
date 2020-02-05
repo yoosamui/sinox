@@ -15,7 +15,7 @@ sh ./timezone-ntp.sh
 #-7
 sh ./sotfware-full.sh
 #-8
-sh ./timezone-ntp.sh
+sh ./update-alternatives.sh
 #-9
 sh ./docker.sh
 #-10
