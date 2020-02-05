@@ -5,8 +5,7 @@ echo "install all software from debian repo"
 apt update
 apt upgrade -y
 
-
-apt install \
+apt install --fix-missing \
 build-essential \
 cmake \
 libgtkmm-3.0-dev \
@@ -76,7 +75,6 @@ gparted \
 vlc \
 gnome-disk-utility \
 gnome-calendar \
-chrony \
 grub-customizer \
 samba \
 smbclient \
@@ -84,9 +82,15 @@ cifs-utils \
 nfs-common \
 notification-daemon -y
 
+apt-get install --fix-missing
+apt update 
+apt clean
+
+
 echo "done"
 #kde-config-sddm \
 #dmesg
 #modporbe
 #dkms //remobe modules
+#chrony \
 
