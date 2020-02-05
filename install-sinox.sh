@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #-1
-sh ./timezone-ntp.sh
+sh ./add-sudo.sh
 
 #-2
-sh ./add-sudo.sh
+sh ./timezone-ntp.sh
 
 #-3
 sh ./update-fstab.sh
