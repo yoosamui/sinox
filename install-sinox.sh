@@ -15,11 +15,12 @@ sh ./sources_list.sh
 #-5
 sh ./copy-files.sh
 
-#-6
-sh ./software-full.sh
-
 #-7
 sh ./plymouth.sh
+
+
+#-6
+sh ./software-full.sh
 
 #-8
 sh ./update-alternatives.sh
