@@ -10,6 +10,7 @@ update-alternatives --config sddm-debian-theme
 #systemctl enable sddm.service 
 
 systemctl disable NetworkManager-wait-online.service
+systemctl disbale docker
 
 #systemctl disable smbd
 #systemctl disable systemd-timesyncd.service
