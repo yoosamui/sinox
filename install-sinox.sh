@@ -16,7 +16,7 @@ sh ./sources_list.sh
 sh ./copy-files.sh
 
 #-6
-sh ./sotfware-full.sh
+sh ./software-full.sh
 
 #-7
 sh ./plymouth.sh
