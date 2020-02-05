@@ -69,6 +69,7 @@ geany \
 viewnior \
 compton \
 lxpanel \
+nitrogen \
 openbox \
 openbox-menu \
 gnome-calculator \
