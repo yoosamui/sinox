@@ -57,6 +57,7 @@ software-properties-common \
 vim \
 vim-athena \
 gnome-terminal \
+nitrogen \
 rofi \
 thunar \
 pulseaudio \
