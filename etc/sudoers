@@ -19,6 +19,7 @@ Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/b
 root	ALL=(ALL:ALL) ALL
 USER	ALL=(ALL:ALL) ALL
 USER	ALL=NOPASSWD:/sbin/shutdown
+USER	ALL=NOPASSWD:/var/sinox
 
 # Allow members of group sudo to execute any command
 %sudo	ALL=(ALL:ALL) ALL
