@@ -15,11 +15,8 @@ apt install plymouth -y
 apt-get install plymouth-themes -y
 
 /usr/sbin/plymouth-set-default-theme --list
-# Then, to set your desired theme run: 
-/usr/sbin/plymouth-set-default-theme -R joy
+/usr/sbin/plymouth-set-default-theme -R  joy
 
-# If this command errors out with a message saying that firmware files are missing, you will have to install the package
-# firmware-linux-nonfree. To do that, execute the following command:
 update-grub
 
 #apt-get install firmware-linux-nonfree -y
