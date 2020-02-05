@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #--------------------
 # needs root access
 #--------------------
@@ -7,9 +7,9 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
 apt-get update
 apt-get install docker-ce
-systemctl status docker
-usermod -aG docker ${USER}
-su - ${USER}
-id -nG
+#systemctl status docker
+sudo usermod -aG docker ${USER}
+sudo su - ${USER}
+sudo id -nG
 echo "done"
 
