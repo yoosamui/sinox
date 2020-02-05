@@ -12,6 +12,7 @@
 
 root_uuid=$(cat /proc/cmdline |  grep -i "UUID=" |  cut -d'=' -f4)
 root_uuid=${root_uuid:0:36}
+echo "UUID="$root_uuid
 p1="s/"
 p2="/gb"
 file="/etc/fstab"
@@ -27,7 +28,4 @@ echo "# Syncs browser profiles to tmpfs reducing SSD/HDD calls and speeding-up b
 echo "# https://wiki.ubuntuusers.de/SSD/Auslagerung/" >> /etc/fstab
 echo "tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0" >> /etc/fstab
 echo "done"
-
-
-
 
