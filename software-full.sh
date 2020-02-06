@@ -25,6 +25,7 @@ gnome-terminal \
 mousepad \
 rofi \
 nemo \
+thunar \
 keepassxc \
 gitk \
 blueman \
@@ -37,6 +38,7 @@ geany \
 viewnior \
 clementine \
 compton \
+compton-conf \
 nitrogen \
 xautolock \
 network-manager \

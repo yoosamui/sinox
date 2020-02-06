@@ -11,9 +11,7 @@
 
 
 root_uuid=$(cat /proc/cmdline |  grep -i "UUID=" |  cut -d'=' -f4)
-root_uuid=${root_uuid:0:36}
-p1="s/"
-p2="/gb"
+root_uuid=$(echo $root_uuid | cut -c1-36)
 file="/etc/fstab"
 search="UUID="$root_uuid
 replace=$search$"  \/\	ext4    noatime,commit=600,defaults        0       2"

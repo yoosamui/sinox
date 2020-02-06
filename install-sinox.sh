@@ -1,12 +1,12 @@
 #!/bin/bash
 
 #-1
-
+sh ./update-fstab.sh
 
 #-2
 sh ./add-sudo.sh
 
-#-3 deprecated
+#-3 
 sh ./timezone-ntp.sh
 
 #-4
@@ -17,6 +17,7 @@ sh ./copy-files.sh
 
 #-6
 
+sh ./plymouth.sh
 
 #-7
 sh ./software-full.sh
@@ -40,8 +41,8 @@ sh ./post-install.sh
 
 
 
-sh ./plymouth.sh
 
 
-sh ./update-fstab.sh
+
+
 echo "done"
