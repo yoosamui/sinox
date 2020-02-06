@@ -7,7 +7,7 @@ sh ./update-fstab.sh
 sh ./add-sudo.sh
 
 #-3 deprecated
-#sh ./timezone-ntp.sh
+sh ./timezone-ntp.sh
 
 #-4
 sh ./sources_list.sh
