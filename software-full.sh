@@ -47,6 +47,7 @@ package-update-indicator \
 lxpanel \
 iperf \
 curl \
+numlockx \
 arandr \
 nmap \
 openbox \
@@ -88,6 +89,7 @@ nfs-common \
 inkscape \
 libreoffice \
 notification-daemon -y
+
 apt-get install --fix-missing
 apt update 
 apt clean

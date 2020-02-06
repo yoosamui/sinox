@@ -10,13 +10,12 @@ sh ./add-sudo.sh
 sh ./timezone-ntp.sh
 
 #-4
-sh ./sources_list.sh
+#sh ./sources_list.sh
 
 #-5
 sh ./copy-files.sh
 
 #-6
-
 sh ./plymouth.sh
 
 #-7
@@ -36,6 +35,8 @@ sh ./optimizer.sh
 
 #-12
 sh ./post-install.sh
+
+
 
 
 
