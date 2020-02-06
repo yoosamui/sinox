@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #-1
-sh ./update-fstab.sh
+
 
 #-2
 sh ./add-sudo.sh
@@ -16,7 +16,7 @@ sh ./sources_list.sh
 sh ./copy-files.sh
 
 #-6
-sh ./plymouth.sh
+
 
 #-7
 sh ./software-full.sh
@@ -36,4 +36,12 @@ sh ./optimizer.sh
 #-12
 sh ./post-install.sh
 
+
+
+
+
+sh ./plymouth.sh
+
+
+sh ./update-fstab.sh
 echo "done"
