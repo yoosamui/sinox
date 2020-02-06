@@ -14,13 +14,13 @@ chown root:root ${grub}
 apt install plymouth -y
 apt-get install plymouth-themes -y
 
-/usr/sbin/plymouth-set-default-theme --list
-/usr/sbin/plymouth-set-default-theme -R  joy
-
-update-grub
+#/usr/sbin/plymouth-set-default-theme --list
+# trigers update-initramfs
+/usr/sbin/plymouth-set-default-theme -R  moonlight
+sudo plymouth-set-default-theme
 
 #apt-get install firmware-linux-nonfree -y
-sudo update-initramfs -u -k all
+#udo update-initramfs -u -k all
 echo "done"
 
 
