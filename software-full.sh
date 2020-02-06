@@ -6,6 +6,7 @@ apt update
 apt upgrade -y
 
 apt install --fix-missing \
+gnustep-gui-runtime \
 build-essential \
 cmake \
 libgtkmm-3.0-dev \
@@ -75,13 +76,15 @@ gparted \
 vlc \
 gnome-disk-utility \
 gnome-calendar \
+gnome-multi-writer \
 grub-customizer \
 samba \
 smbclient \
 cifs-utils \
 nfs-common \
+inkscape \
+libreoffice \
 notification-daemon -y
-
 apt-get install --fix-missing
 apt update 
 apt clean
