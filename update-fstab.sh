@@ -26,5 +26,7 @@ echo "# Profile-sync-daemon" >> /etc/fstab
 echo "# Syncs browser profiles to tmpfs reducing SSD/HDD calls and speeding-up browsers." >> /etc/fstab
 echo "# https://wiki.ubuntuusers.de/SSD/Auslagerung/" >> /etc/fstab
 echo "tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0" >> /etc/fstab
+cat /etc/fstab
+mount -a
 echo "done"
 

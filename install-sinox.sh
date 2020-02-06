@@ -1,16 +1,16 @@
 #!/bin/bash
 
 #-1
+sh ./update-fstab.sh
+
+#-2
 sh ./add-sudo.sh
 
-#-2 deprecated
+#-3 deprecated
 #sh ./timezone-ntp.sh
 
-#-3
-sh ./sources_list.sh
-
 #-4
-sh ./update-fstab.sh
+sh ./sources_list.sh
 
 #-5
 sh ./copy-files.sh
@@ -37,4 +37,3 @@ sh ./optimizer.sh
 sh ./post-install.sh
 
 echo "done"
-
