@@ -9,7 +9,7 @@ update-alternatives --install /usr/share/sddm/themes/debian-theme sddm-debian-th
 # services
 #systemctl enable sddm.service 
 
-#systemctl disable NetworkManager-wait-online.service
+systemctl disable NetworkManager-wait-online.service
 #systemctl disbale docker
 
 #systemctl disable smbd

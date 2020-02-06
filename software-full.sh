@@ -68,6 +68,7 @@ lxappearance \
 x11-xserver-utils \
 numix-icon-theme \
 redshift-gtk \
+xscreensaver xscreensaver-data-extra xscreensaver-gl-extra \
 sddm \
 sddm-theme-debian-breeze \
 firefox-esr \
