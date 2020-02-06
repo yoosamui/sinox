@@ -16,7 +16,7 @@ apt-get install plymouth-themes -y
 
 #/usr/sbin/plymouth-set-default-theme --list
 # trigers update-initramfs
-/usr/sbin/plymouth-set-default-theme -R  text
+#/usr/sbin/plymouth-set-default-theme -R  joy
 sudo plymouth-set-default-theme
 
 #apt-get install firmware-linux-nonfree -y
