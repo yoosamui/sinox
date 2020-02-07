@@ -5,7 +5,7 @@ sh ./timezone-ntp.sh
 sh ./software-full.sh
 
 
-
+echo "START PART 2 ----------------------------------------------------------------------------------------------"
 sh ./copy-files.sh
 sh ./plymouth.sh
 sh ./update-fstab.sh
