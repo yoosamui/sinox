@@ -88,7 +88,7 @@ cifs-utils \
 nfs-common \
 inkscape \
 libreoffice \
-#notification-daemon -y
+notification-daemon -y
 
 apt-get install --fix-missing
 apt update 
