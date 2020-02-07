@@ -49,6 +49,8 @@ redshift-gtk &
 
 xscreensaver -nosplash &
 
+numlockx on &
+
 xautolock -time 30 -locker "systemctl suspend" &
 
 
