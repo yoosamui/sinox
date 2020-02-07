@@ -13,7 +13,7 @@ sh ./timezone-ntp.sh
 sh ./sources_list.sh
 
 #-5
-#sh ./copy-files.sh
+sh ./copy-files.sh
 
 #-6
 sh ./plymouth.sh
@@ -25,20 +25,15 @@ sh ./software-full.sh
 #sh ./update-alternatives.sh
 
 #-9
-#sh ./docker.sh
+sh ./docker.sh
 
 #-10
-#sh ./software-extra.sh
+sh ./software-extra.sh
 
 #-11
 #sh ./optimizer.sh
 
-sh ./copy-files.sh
-
-
 #-12
-#sh ./post-install.sh
-
-
+sh ./post-install.sh
 
 echo "done"
