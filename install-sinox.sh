@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #-1
-sh ./update-fstab.sh
+#sh ./update-fstab.sh
 
 #-2
 sh ./add-sudo.sh
