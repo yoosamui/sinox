@@ -7,7 +7,6 @@
 # Make the NetworkManager managed
 echo "Make the NetworkManager managed"
 nmfile='/etc/NetworkManager/NetworkManager.conf'
-
 p1='s/'
 p2='/g'
 r='/'

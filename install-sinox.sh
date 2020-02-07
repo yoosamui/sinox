@@ -6,9 +6,12 @@ sh ./software-full.sh
 
 
 
-sh ./plymouth.sh
 sh ./copy-files.sh
+sh ./plymouth.sh
 sh ./update-fstab.sh
+sh ./sources_list.sh
+sh ./post-install.sh
+
 exit
 
 
