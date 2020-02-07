@@ -16,10 +16,13 @@ xrandr --output VGA-0 --off --output LVDS-0 --mode 1920x1080 --pos 2560x0 --rota
 #  gnome-settings-daemon &
 #fi
 
-lxpanel &
+
 
 # apt install network-manager-gnome 
 nm-applet &
+
+
+lxpanel &
 
 #---------------------------------------------------------------------
 #  launch the policykit authentication agent
