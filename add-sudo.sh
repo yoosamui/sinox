@@ -9,7 +9,7 @@ apt upgrade -y
 dpkg --add-architecture i386
 
 echo "get the sudo package"
-apt install sudo
+apt install sudo -y
 
 # sed chars
 p1='s/'

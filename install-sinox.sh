@@ -13,7 +13,7 @@ sh ./timezone-ntp.sh
 sh ./sources_list.sh
 
 #-5
-sh ./copy-files.sh
+#sh ./copy-files.sh
 
 #-6
 sh ./plymouth.sh
