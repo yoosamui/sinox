@@ -19,7 +19,7 @@ sh ./copy-files.sh
 sh ./plymouth.sh
 
 #-7
-sh ./software-mininal.sh
+sh ./software-full.sh
 
 #-8
 sh ./update-alternatives.sh
