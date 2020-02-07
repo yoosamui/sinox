@@ -13,8 +13,8 @@ sh ./plymouth.sh
 sh ./software-extra.sh
 
 echo "START PART 3 ----------------------------------------------------------------------------------------------"
-sh ./update-fstab.sh
-sh ./sources_list.sh
+#sh ./update-fstab.sh
+#sh ./sources_list.sh
 sh ./post-install.sh
 
 exit
