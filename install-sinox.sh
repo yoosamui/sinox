@@ -10,7 +10,7 @@ sh ./add-sudo.sh
 sh ./timezone-ntp.sh
 
 #-4
-#sh ./sources_list.sh
+sh ./sources_list.sh
 
 #-5
 sh ./copy-files.sh
