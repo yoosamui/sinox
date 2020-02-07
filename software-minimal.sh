@@ -13,7 +13,7 @@ thunar \
 gedit \
 openbox \
 sddm \
-sddm-theme-debian-breeze - y
+sddm-theme-debian-breeze -y
 
 
 
