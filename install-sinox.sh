@@ -1,13 +1,18 @@
 #!/bin/bash
 
+echo "START PART 1 ----------------------------------------------------------------------------------------------"
 sh ./add-sudo.sh
 sh ./timezone-ntp.sh
 sh ./software-full.sh
 
 
+
 echo "START PART 2 ----------------------------------------------------------------------------------------------"
 sh ./copy-files.sh
 sh ./plymouth.sh
+sh ./software-extra.sh
+
+echo "START PART 3 ----------------------------------------------------------------------------------------------"
 sh ./update-fstab.sh
 sh ./sources_list.sh
 sh ./post-install.sh
