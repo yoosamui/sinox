@@ -41,7 +41,6 @@ nitrogen --restore &
 #---------------------------------------------------------------------
 compton -b -c &
 
-
 #trayer  --edge top --align right --SetPartialStrut true &
 #/var/sinox/docklight-3.0/docklight &
 
@@ -49,6 +48,7 @@ redshift-gtk &
 
 xscreensaver -nosplash &
 
+#numon
 numlockx on &
 
 xautolock -time 30 -locker "systemctl suspend" &
