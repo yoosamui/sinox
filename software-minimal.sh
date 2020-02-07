@@ -12,7 +12,7 @@ thunar \
 gedit \
 openbox \
 sddm \
-sddm-theme-debian-breeze \
+sddm-theme-debian-breeze - y
 
 apt-get install --fix-missing
 apt update 
