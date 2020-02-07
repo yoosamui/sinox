@@ -15,5 +15,5 @@ gedit \
 openbox \
 obconf \
 obmenu \
-lightdm
+lightdm \
 gmessage -y
