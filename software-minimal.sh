@@ -12,6 +12,7 @@ thunar \
 gedit \
 openbox \
 sddm \
+gnome-terminal \
 sddm-theme-debian-breeze - y
 
 apt-get install --fix-missing
