@@ -1,5 +1,20 @@
 #!/bin/bash
 
+sh ./add-sudo.sh
+sh ./timezone-ntp.sh
+sh ./software-full.sh
+
+
+
+sh ./plymouth.sh
+sh ./copy-files.sh
+sh ./update-fstab.sh
+exit
+
+
+
+
+
 #-1
 #sh ./update-fstab.sh
 
