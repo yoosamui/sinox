@@ -7,15 +7,17 @@ apt upgrade -y
 
 apt install --fix-missing \
 gnustep-gui-runtime \
+gnome-terminal \
 software-properties-common \
 thunar \
 gedit \
 openbox \
 sddm \
-gnome-terminal \
 sddm-theme-debian-breeze - y
 
-apt-get install --fix-missing
+
+
+#apt-get install --fix-missing
 apt update 
 apt clean
 
