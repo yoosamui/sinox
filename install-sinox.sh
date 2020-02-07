@@ -19,7 +19,7 @@ sh ./copy-files.sh
 sh ./plymouth.sh
 
 #-7
-sh ./software-full.sh
+sh ./software-mininal.sh
 
 #-8
 sh ./update-alternatives.sh
@@ -31,19 +31,9 @@ sh ./docker.sh
 sh ./software-extra.sh
 
 #-11
-sh ./optimizer.sh
+#sh ./optimizer.sh
 
 #-12
 sh ./post-install.sh
-
-
-
-
-
-
-
-
-
-
 
 echo "done"
