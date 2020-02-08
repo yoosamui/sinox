@@ -6,13 +6,14 @@ sh ./timezone-ntp.sh
 sh ./copy-files.sh
 sh ./plymouth.sh
 
+echo "START PART 2 SOFTWARE 
 sh ./software-full.sh
 
 
-echo "START PART 2 ----------------------------------------------------------------------------------------------"
+echo "START PART 3 ----------------------------------------------------------------------------------------------"
 #sh ./software-extra.sh
 
-echo "START PART 3 ----------------------------------------------------------------------------------------------"
+echo "START PART 4 ----------------------------------------------------------------------------------------------"
 sh ./update-fstab.sh
 sh ./sources_list.sh
 sh ./post-install.sh
