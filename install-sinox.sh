@@ -6,7 +6,7 @@ sh ./timezone-ntp.sh
 sh ./copy-files.sh
 sh ./plymouth.sh
 
-echo "START PART 2 SOFTWARE 
+echo "START PART 2 SOFTWARE" 
 sh ./software-full.sh
 
 
