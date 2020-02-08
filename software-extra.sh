@@ -17,4 +17,18 @@ skype_path='/home/'$USER'/sinox/skypeforlinux-64.deb'
 sudo dpkg -i ${skype_path}
 rm -f ${skype_path}
 
+
+
+apt install --fix-missing \
+samba \
+smbclient \
+cifs-utils \
+nfs-common \
+
+
+# samba 
+echo "Please enter the password for samba. User="$USER
+sudo smbpasswd -a $USER
+
+
 echo "done"

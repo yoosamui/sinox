@@ -86,23 +86,5 @@ inkscape \
 libreoffice \
 notification-daemon -y
 
-#apt-get install --fix-missing
 apt update 
 apt clean
-
-
-
-
-#samba \
-#smbclient \
-#cifs-utils \
-#nfs-common \
-
-
-echo "done"
-#kde-config-sddm \
-#dmesg
-#modporbe
-#dkms //remobe modules
-#chrony \
-

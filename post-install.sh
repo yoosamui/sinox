@@ -28,9 +28,6 @@ chown -R root:root /usr/share/sddm/faces/.face.icon
 ls /usr/share/sddm/faces -al
 
 
-# samba 
-#echo "Please enter the password for a samba user="$USER
-#sudo smbpasswd -a $USER
 
 
 echo "--------------------------------------------------------------------------------------"
