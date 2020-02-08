@@ -23,7 +23,7 @@ apt install --fix-missing \
 samba \
 smbclient \
 cifs-utils \
-nfs-common \
+nfs-common -y
 
 
 # samba 
