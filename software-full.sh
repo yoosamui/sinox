@@ -82,17 +82,21 @@ gnome-disk-utility \
 gnome-calendar \
 gnome-multi-writer \
 grub-customizer \
-samba \
-smbclient \
-cifs-utils \
-nfs-common \
 inkscape \
 libreoffice \
 notification-daemon -y
 
-apt-get install --fix-missing
+#apt-get install --fix-missing
 apt update 
 apt clean
+
+
+
+
+#samba \
+#smbclient \
+#cifs-utils \
+#nfs-common \
 
 
 echo "done"

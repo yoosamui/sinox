@@ -12,7 +12,7 @@ sh ./software-full.sh
 
 
 # sh ./sources_list.sh
-# sh ./post-install.sh
+ sh ./post-install.sh
 
 exit
 
