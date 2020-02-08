@@ -2,13 +2,14 @@
 
 echo "START PART 1 ----------------------------------------------------------------------------------------------"
 sh ./add-sudo.sh
+sh ./update-fstab.sh
 sh ./timezone-ntp.sh
 sh ./copy-files.sh
 sh ./plymouth.sh
 sh ./software-full.sh
-sh ./software-extra.sh
-sh ./docker.sh
-sh ./update-fstab.sh
+#ssh ./software-extra.sh
+#sh ./docker.sh
+
 
 # sh ./sources_list.sh
 # sh ./post-install.sh
