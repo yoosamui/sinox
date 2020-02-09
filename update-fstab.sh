@@ -15,7 +15,9 @@ root_uuid=$(echo $root_uuid | cut -c1-36)
 file="/etc/fstab"
 search="UUID="$root_uuid
 replace=$search$"  \/\	ext4    noatime,commit=600,defaults        0       2"
-sed  -i  '/'"${search}"'/s/.*/'"${replace}"'/g' "${file}"
+####sed  -i  '/'"${search}"'/s/.*/'"${replace}"'/g' $file
+
+
 echo ""
 echo "# ram disk for docklight" >> /etc/fstab
 echo "tmpfs       /tmp/docklight tmpfs   nodev,nosuid,noexec,nodiratime,size=1024M" >> /etc/fstab
