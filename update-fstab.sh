@@ -18,7 +18,7 @@ replace=$search$"  \/\	ext4    noatime,commit=600,defaults        0       2"
 ####sed  -i  '/'"${search}"'/s/.*/'"${replace}"'/g' $file
 
 
-echo ""
+echo " "
 echo "# ram disk for docklight" >> /etc/fstab
 echo "tmpfs       /tmp/docklight tmpfs   nodev,nosuid,noexec,nodiratime,size=1024M" >> /etc/fstab
 echo " " >> /etc/fstab 
