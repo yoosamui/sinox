@@ -8,15 +8,15 @@
 #echo "Make the NetworkManager managed"
 
 
-#nmfile='/etc/NetworkManager/NetworkManager.conf'
-#p1='s/'
-#p2='/g'
-#r='/'
-#earch='managed=false'
-#replace='managed=true'
-#c=${p1}${search}${r}${replace}${p2}
-#sed -i ${c} ${nmfile}
-#cat ${nmfile}
+nmfile='/etc/NetworkManager/NetworkManager.conf'
+p1='s/'
+p2='/g'
+r='/'
+earch='managed=false'
+replace='managed=true'
+c=${p1}${search}${r}${replace}${p2}
+sed -i ${c} ${nmfile}
+cat ${nmfile}
 
 
 # avatar
