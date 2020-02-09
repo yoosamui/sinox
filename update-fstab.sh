@@ -15,7 +15,7 @@ root_uuid=$(echo $root_uuid | cut -c1-36)
 file="/etc/fstab"
 search="UUID="$root_uuid
 replace=$search$"  \/\	ext4    noatime,commit=600,defaults        0       2"
-####sed  -i  '/'"${search}"'/s/.*/'"${replace}"'/g' $file
+sed  -i  '/'"${search}"'/s/.*/'"${replace}"'/g' $file
 
 
 echo " "
@@ -26,6 +26,18 @@ echo "# Profile-sync-daemon" >> /etc/fstab
 echo "# Syncs browser profiles to tmpfs reducing SSD/HDD calls and speeding-up browsers." >> /etc/fstab
 echo "# https://wiki.ubuntuusers.de/SSD/Auslagerung/" >> /etc/fstab
 echo "tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0" >> /etc/fstab
+
+# Setting Up Periodic TRIM for systemd
+# For other systemd distributions, periodic TRIM can be enabled with the fstrim.timer file,
+# which will run TRIM operations on all capable, mounted drives once a week. This also leverages the fstrim --all option.
+
+sudo systemctl enable fstrim.timer
+
+
+
+#After changing filesystem options, update settings in all initramfs images:
+update-initramfs -u -k all
+
 cat /etc/fstab
 
 echo "done"
