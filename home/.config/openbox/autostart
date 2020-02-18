@@ -47,6 +47,8 @@ compton -b -c &
 #trayer  --edge top --align right --SetPartialStrut true &
 #/var/sinox/docklight-3.0/docklight &
 
+trayer  --edge top --align right --SetPartialStrut true --transparent true --iconspacing 12 --alpha 255 &
+
 redshift-gtk &
 
 xscreensaver -nosplash &
