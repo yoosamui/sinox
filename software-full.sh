@@ -24,6 +24,7 @@ software-properties-common \
 vim \
 vim-athena \
 gnome-terminal \
+terminator \
 mousepad \
 rofi \
 nemo \
@@ -62,7 +63,6 @@ clamav-daemon \
 clamtk \
 transmission-gtk \
 baobab \
-lxtask \
 obconf \
 obmenu \
 fbxkb \
