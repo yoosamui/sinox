@@ -14,4 +14,4 @@
 
 # KMS
   drm
-  nouveau modeset=1
+  nouveau modeset=0
