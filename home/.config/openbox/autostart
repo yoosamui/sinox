@@ -36,11 +36,11 @@ nm-applet &
 # start nitrogen
 nitrogen --restore &
 
-# composite manager fast setup without shadows
-compton -b  &
+# composite manager  setup without shadows
+# compton -b  &
 
 # composite manager without shadows
-# compton -b  -c &
+compton -b  -c &
 
 # trayer manager
 trayer  --edge top --align right --SetPartialStrut true --transparent true --iconspacing 12 --alpha 255 &
