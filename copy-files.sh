@@ -92,6 +92,8 @@ cp etc/blacklist-nouveau.conf /etc/modprobe.d/blacklist-nouveau.conf
 chown root:root /etc/modprobe.d/blacklist-nouveau.conf
 #sudo update-initramfs -u
 
+cp bin/trayer /bin
+
 echo "done"
 exit
 

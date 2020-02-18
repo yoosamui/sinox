@@ -7,6 +7,7 @@ apt upgrade -y
 
 # ui -------------------------------------------
 apt install --fix-missing \
+install intel-microcode \
 gnustep-gui-runtime \
 gnome-terminal \
 software-properties-common \

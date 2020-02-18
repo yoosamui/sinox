@@ -46,6 +46,7 @@ xautolock \
 network-manager \
 network-manager-gnome \
 package-update-indicator \
+lxpanel \
 iperf \
 curl \
 numlockx \
@@ -73,7 +74,8 @@ x11-xserver-utils \
 numix-icon-theme \
 redshift-gtk \
 xscreensaver xscreensaver-data-extra xscreensaver-gl-extra \
-lightdm \
+sddm \
+sddm-theme-debian-breeze \
 firefox-esr \
 e2fsprogs \
 gparted \
@@ -87,5 +89,4 @@ libreoffice \
 notification-daemon -y
 
 apt update 
-apt autoremove
 apt clean
