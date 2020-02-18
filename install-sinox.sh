@@ -8,5 +8,5 @@ sh ./software-full.sh
 sh ./software-extra.sh
 sh ./docker.sh
 sh ./copy-files.sh
-sh ./update-fstab.sh
+#sh ./update-fstab.sh
 sh ./post-install.sh
