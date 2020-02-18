@@ -17,6 +17,7 @@ libtool \
 gettext \
 autopoint \
 intltool \
+kde-spectacle \
 clang-format \
 software-properties-common \
 vim \
