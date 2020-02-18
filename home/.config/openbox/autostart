@@ -1,5 +1,5 @@
 # Programs that will run after Openbox has started
-
+# sinox configuration
 
 # HDMI
 xrandr --output VGA-0 --off --output LVDS-0 --mode 1920x1080 --pos 2560x0 --rotate normal --output DP-5 --off --output DP-4 --off --output DP-3 --off --output DP-2 --off --output DP-1 --off --output DP-0 --primary --mode 2560x1440 --pos 0x0 --rotate normal &
@@ -17,17 +17,12 @@ xrandr --output VGA-0 --off --output LVDS-0 --mode 1920x1080 --pos 2560x0 --rota
 #fi
 
 
-
 # apt install network-manager-gnome 
+# network-manager-gnome UI
 nm-applet &
 
-
-lxpanel &
-
-#---------------------------------------------------------------------
-#  launch the policykit authentication agent
+# launch the policykit authentication agent service
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
-#---------------------------------------------------------------------
 
 # To view and set the desired wallpaper from a specific directory recursively, run: 
 # $ nitrogen /path/to/image/directory/
@@ -38,25 +33,28 @@ lxpanel &
 # Freeze with dual monitors
 # $ rm -r ~/.config/nitrogen/
 
+# start nitrogen
 nitrogen --restore &
-#(sleep 1s && lxpanel) &
 
-#---------------------------------------------------------------------
-compton -b -c &
+# composite manager fast setup without shadows
+compton -b  &
 
-#trayer  --edge top --align right --SetPartialStrut true &
-#/var/sinox/docklight-3.0/docklight &
+# composite manager without shadows
+# compton -b  -c &
 
+# trayer manager
 trayer  --edge top --align right --SetPartialStrut true --transparent true --iconspacing 12 --alpha 255 &
 
+# redshift-gtk with geo for thailand
 redshift-gtk &
 
+# the screen saver default 10 min
 xscreensaver -nosplash &
 
-#numon
+#enable numlock on
 numlockx on &
 
+# suspend  the system after 30 min
 xautolock -time 30 -locker "systemctl suspend" &
-
 
 #--EOF--
