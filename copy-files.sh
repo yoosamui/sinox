@@ -88,8 +88,8 @@ chown root:root /boot/grub/sinox-custom.cfg
   
 # disable Nouveau kernel driver
 # needs Regenerate the kernel initramfs:
-cp etc/blacklist-nouveau.conf /etc/blacklist-nouveau.conf
-chown root:root /etc/blacklist-nouveau.conf
+cp etc/blacklist-nouveau.conf /etc/modprobe.d/blacklist-nouveau.conf
+chown root:root /etc/modprobe.d/blacklist-nouveau.conf
 #sudo update-initramfs -u
 
 echo "done"
