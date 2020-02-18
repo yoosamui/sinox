@@ -6,7 +6,7 @@ apt update
 apt upgrade -y
 
 apt install --fix-missing \
-install intel-microcode \
+intel-microcode \
 gnustep-gui-runtime \
 build-essential \
 cmake \
