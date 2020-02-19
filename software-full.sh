@@ -6,6 +6,7 @@ apt update
 apt upgrade -y
 
 apt install --fix-missing \
+libnotify-bin \
 intel-microcode \
 gnustep-gui-runtime \
 build-essential \
@@ -73,7 +74,7 @@ x11-xserver-utils \
 numix-icon-theme \
 redshift-gtk \
 xscreensaver xscreensaver-data-extra xscreensaver-gl-extra \
-slim \
+lightdm \
 firefox-esr \
 e2fsprogs \
 gparted \
