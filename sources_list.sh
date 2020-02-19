@@ -2,7 +2,7 @@
 #--------------------
 # needs root access
 #--------------------
-cp -p etc/sources.list /etc/apt/sources.list
+cp etc/sources.list /etc/apt/sources.list
 
 #buster backports
 #echo "deb http://deb.debian.org/debian buster-backports main contrib non-free" >> /etc/apt/sources.list
