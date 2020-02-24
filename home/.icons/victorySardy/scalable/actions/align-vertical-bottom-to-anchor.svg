@@ -1,0 +1,6 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path d="m-22 17h2v4h-2z" fill="#888888" transform="rotate(-90)"/>
+  <path d="m13.5 10.5h6v5h-6z" fill="#ffffff" stroke="#888888" stroke-miterlimit="23.7"/>
+  <path d="m4.5 4.5h6v11h-6z" fill="#ffffff" stroke="#888888" stroke-miterlimit="23.7"/>
+  <path d="m-19 2h1v20h-1z" fill="#f9b13a" transform="rotate(-90)"/>
+</svg>

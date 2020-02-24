@@ -1,0 +1,42 @@
+00:00:00.000633 main     VirtualBox XPCOM Server 6.0.16 r135674 linux.amd64 (Jan 14 2020 10:17:21) release log
+00:00:00.000636 main     Log opened 2020-02-19T04:23:33.563767000Z
+00:00:00.000637 main     Build Type: release
+00:00:00.000641 main     OS Product: Linux
+00:00:00.000642 main     OS Release: 4.19.0-8-amd64
+00:00:00.000643 main     OS Version: #1 SMP Debian 4.19.98-1 (2020-01-26)
+00:00:00.000666 main     DMI Product Name: Precision M6800
+00:00:00.000676 main     DMI Product Version: 00
+00:00:00.000730 main     Host RAM: 15980MB (15.6GB) total, 14558MB (14.2GB) available
+00:00:00.000735 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000736 main     Process ID: 1596
+00:00:00.000736 main     Package type: LINUX_64BITS_DEBIAN_10_0
+00:00:00.002153 main     IPC socket path: /tmp/.vbox-yoo-ipc/ipcd
+00:00:00.108298 nspr-2   VirtualBox: object creation starts
+00:00:00.108869 nspr-2   Home directory: '/home/yoo/.config/VirtualBox'
+00:00:00.119402 nspr-2   HostDnsMonitor: initializing
+00:00:00.119682 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
+00:00:00.119711 nspr-2   HostDnsMonitor: updating information
+00:00:00.119735 nspr-2   HostDnsMonitor: old information
+00:00:00.119740 nspr-2     no server entries
+00:00:00.119746 nspr-2     no domain set
+00:00:00.119751 nspr-2     no search string entries
+00:00:00.119756 nspr-2   HostDnsMonitor: new information
+00:00:00.119761 nspr-2     server 1: 192.168.1.1
+00:00:00.119767 nspr-2     no domain set
+00:00:00.119771 nspr-2     no search string entries
+00:00:00.124750 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.126232 nspr-2   VirtualBox: object created
+00:00:02.395076 nspr-3   Saving settings file "/home/yoo/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:02.407817 nspr-2   Saving settings file "/home/yoo/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:04.856215 nspr-3   Saving settings file "/home/yoo/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:04.863770 nspr-2   Saving settings file "/home/yoo/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:04.868069 nspr-3   Saving settings file "/home/yoo/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:04.875339 nspr-3   Saving settings file "/home/yoo/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:04.880075 nspr-3   Saving settings file "/home/yoo/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:04.885064 nspr-2   Saving settings file "/home/yoo/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:10.402029 main     VirtualBox: object deletion starts
+00:00:10.402603 main     HostDnsMonitor: shutting down ...
+00:00:10.410629 main     HostDnsMonitor: shut down
+00:00:10.629427 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:15.410839 main     {00007fc824016360} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:00:15.411292 main     VirtualBox: object deleted

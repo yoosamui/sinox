@@ -1,0 +1,24 @@
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 512 512">
+ <path fill-rule="evenodd" d="m471.95 253.05c0 120.9-98.01 218.9-218.9 218.9-120.9 0-218.9-98.01-218.9-218.9 0-120.9 98.01-218.9 218.9-218.9 120.9 0 218.9 98.01 218.9 218.9" fill="#8db173"/>
+ <text y="231.36" x="729.64"/>
+ <text y="151.36" x="1310.91"/>
+ <text y="-29.9" x="239.33"/>
+ <text y="-246.37" x="1337.38"/>
+ <text y="-326.38" x="1918.65"/>
+ <text y="-798.78" x="1529.53"/>
+ <text y="-878.78" x="2110.79"/>
+ <text y="535.94" x="277.99"/>
+ <text y="445.33" x="-1784.22"/>
+ <text y="445.33" x="-1784.22"/>
+ <text y="445.33" x="-1784.22"/>
+ <text y="481.78" x="-1814.11"/>
+ <text y="-286.17" x="-2461.88"/>
+ <text y="-441.8" x="-1755.54"/>
+ <text y="248.78" x="-2860.46"/>
+ <text style="word-spacing:0;letter-spacing:0" font-size="253.55" stroke="#ffffff" y="346.47" x="93.09" stroke-width="10" line-height="125%" fill="#ffffff">
+  <tspan y="346.47" x="93.09" stroke-width="10">L</tspan>
+ </text>
+ <text style="word-spacing:0;letter-spacing:0" font-size="47.676" stroke="#ffffff" y="346.65" x="211.72" stroke-width="10" line-height="125%" fill="#ffffff">
+  <tspan y="346.65" x="211.72" font-size="253.52" stroke-width="10">O</tspan>
+ </text>
+</svg>

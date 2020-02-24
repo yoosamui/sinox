@@ -1,8 +1,5 @@
 #!/bin/bash
 
-#--------------------
-# needs root access
-#--------------------
 apt update 
 apt upgrade -y
 
@@ -26,7 +23,6 @@ ls ${r}${file} -la
 
 chown root:root /etc/sudoers
 echo "done."
-
 
 
 

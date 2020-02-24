@@ -1,0 +1,7 @@
+[Added Associations]
+text/plain=mousepad.desktop;org.gnome.gedit.desktop;
+
+[Default Applications]
+text/plain=org.gnome.gedit.desktop
+text/x-c=org.gnome.gedit.desktop
+application/pdf=okularApplication_pdf.desktop

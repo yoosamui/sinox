@@ -8,6 +8,9 @@ apt upgrade -y
 apt install --fix-missing \
 libnotify-bin \
 intel-microcode \
+preload \
+firmware-misc-nonfree \
+synaptic \
 gnustep-gui-runtime \
 build-essential \
 cmake \
@@ -28,6 +31,7 @@ gnome-terminal \
 terminator \
 mousepad \
 rofi \
+okular \
 nemo \
 thunar \
 keepassxc \
@@ -53,8 +57,6 @@ curl \
 numlockx \
 arandr \
 nmap \
-openbox \
-openbox-menu \
 xbacklight \
 gufw \
 galculator \
@@ -64,8 +66,6 @@ clamav-daemon \
 clamtk \
 transmission-gtk \
 baobab \
-obconf \
-obmenu \
 fbxkb \
 bleachbit \
 wireless-tools \
@@ -74,7 +74,6 @@ x11-xserver-utils \
 numix-icon-theme \
 redshift-gtk \
 xscreensaver xscreensaver-data-extra xscreensaver-gl-extra \
-lightdm \
 firefox-esr \
 e2fsprogs \
 gparted \

@@ -1,0 +1,8 @@
+<svg height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#aaaaaa">
+    <path d="m4 38l6 6 12-12-6-6z"/>
+    <path d="m8 24h16v16z"/>
+    <path d="m44 10l-6-6-12 12 6 6z"/>
+    <path d="m40 24h-16v-16z"/>
+  </g>
+</svg>

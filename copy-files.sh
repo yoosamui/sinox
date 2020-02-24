@@ -73,13 +73,13 @@ sed -i ${c} ${file1}
 sed -i ${c} ${file2}
 
 # avatar
-echo "copy face avatar" 
-mkdir -p /usr/share/sddm/faces/
-chown -R root:root /usr/share/sddm/faces
-cp usr/share/sddm/faces/.face.icon /usr/share/sddm/faces/.face.icon
+#echo "copy face avatar" 
+#mkdir -p /usr/share/sddm/faces/
+#chown -R root:root /usr/share/sddm/faces
+#cp usr/share/sddm/faces/.face.icon /usr/share/sddm/faces/.face.icon
 
 #chown -R root:root /usr/share/sddm/faces/.face.icon
-ls /usr/share/sddm/faces -al
+#ls /usr/share/sddm/faces -al
 
 
 #- grub template
@@ -90,7 +90,7 @@ chown root:root /boot/grub/sinox-custom.cfg
 # needs Regenerate the kernel initramfs:
 cp etc/blacklist-nouveau.conf /etc/modprobe.d/blacklist-nouveau.conf
 chown root:root /etc/modprobe.d/blacklist-nouveau.conf
-#sudo update-initramfs -u
+sudo update-initramfs -u
 
 cp bin/trayer /bin
 

@@ -1,0 +1,5 @@
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <path d="m-28-38h8v28h-8z" fill="#cecece" transform="scale(-1)"/>
+  <path d="m-18-38h8v28h-8z" fill="#79d073" transform="scale(-1)"/>
+  <path d="m8 8c0 10.666667 0 21.333333 0 32 10.666667 0 21.333333 0 32 0 0-10.666667 0-21.333333 0-32-10.666667 0-21.333333 0-32 0zm2 2h8v8h-8zm10 0h8v8h-8zm10 0h8v8h-8zm-20 10h8v8h-8zm10 0h8v8h-8zm10 0h8v8h-8zm-20 10h8v8h-8zm10 0h8v8h-8zm10 0h8v8h-8z" fill="#888888"/>
+</svg>
