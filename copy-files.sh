@@ -95,8 +95,8 @@ sudo update-initramfs -u
 cp bin/trayer /bin
 
 
-cp etc/sources.list_clean /etc/apt/sources.list
-apt update
+#cp etc/sources.list_clean /etc/apt/sources.list
+#apt update
 
 
 

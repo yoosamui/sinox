@@ -4,14 +4,14 @@ sh ./add-sudo.sh
 sh ./timezone-ntp.sh
 sh ./sources_list.sh
 sh ./software-full.sh
+sh ./software-ui.sh
 sh ./copy-files.sh
 sh ./plymouth.sh
-sh ./software-ui.sh
 sh ./software-extra.sh
 sh ./docker.sh
 sh ./post-install.sh
 sh ./optimizer.sh
-#sh ./update-fstab.sh
+sh ./update-fstab.sh
 
 echo "--------------------------------------------------------------------------------------"
 echo "SINOX installation complete"
