@@ -1,9 +1,0 @@
-<svg height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg">
-  <path d="m17-42h2v36h-2z" fill="#268bd2" transform="rotate(90)"/>
-  <path d="m29-42h2v36h-2z" fill="#268bd2" transform="rotate(90)"/>
-  <path d="m35.895332 31.001751l-1.73205-3h3.464101z" fill="#268bd2" transform="matrix(2.0207259 0 0 -1.6666666 -29.034628 84.669583)"/>
-  <path d="m35.895332 31.001751l-1.73205-3h3.464101z" fill="#268bd2" transform="matrix(2.0207259 0 0 1.6666666 -29.034628 -36.669583)"/>
-  <path d="m8-37h10v26h-10z" fill="#ffffff" transform="rotate(90)"/>
-  <path d="m30-35h10v22h-10z" fill="#ffffff" transform="rotate(90)"/>
-  <path d="m10.000001 7.0000001v11.9999999h27.999999v-11.9999999zm2 2h23.999999v7.9999999h-23.999999zm0 19.9999999v12h23.999999v-12zm1.999999 2h20v8h-20z" fill="#888888"/>
-</svg>

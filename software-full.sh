@@ -9,6 +9,7 @@ apt install --fix-missing \
 libnotify-bin \
 intel-microcode \
 preload \
+libgconf-2-4 \
 firmware-misc-nonfree \
 synaptic \
 gnustep-gui-runtime \
@@ -32,6 +33,7 @@ terminator \
 mousepad \
 rofi \
 okular \
+htop \
 nemo \
 thunar \
 keepassxc \
@@ -59,6 +61,7 @@ arandr \
 nmap \
 xbacklight \
 gufw \
+rsync \
 galculator \
 gnome-calculator \
 clamav \

@@ -128,7 +128,7 @@
       <name>3</name>
       <name>4</name>
     </names>
-    <popupTime>0</popupTime>
+    <popupTime>875</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
        desktops.  Set this to 0 to disable the popup. -->
   </desktops>
@@ -356,6 +356,11 @@
     <keybind key="C-A-t">
       <action name="Execute">
         <command>gnome-terminal</command>
+      </action>
+    </keybind>
+    <keybind key="C-A-Escape">
+      <action name="Execute"> 
+        <command>xkill</command>
       </action>
     </keybind>
     <!--

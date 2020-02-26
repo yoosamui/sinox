@@ -1,8 +1,18 @@
 # Programs that will run after Openbox has started
 # sinox configuration
 
+# experimental (prefer maximun performance)
+nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1 > /dev/null
+
 # HDMI
 xrandr --output VGA-0 --off --output LVDS-0 --mode 1920x1080 --pos 2560x0 --rotate normal --output DP-5 --off --output DP-4 --off --output DP-3 --off --output DP-2 --off --output DP-1 --off --output DP-0 --primary --mode 2560x1440 --pos 0x0 --rotate normal &
+
+
+
+# https://wiki.archlinux.org/index.php/Feh
+# feh --bg-scale /home/yoo/wallpapers/blumblaum_3929361972.jpg
+
+
 
 #---------------------------------------------------------------------
 # If you want to use GNOME config tools...
@@ -17,9 +27,38 @@ xrandr --output VGA-0 --off --output LVDS-0 --mode 1920x1080 --pos 2560x0 --rota
 #fi
 
 
+
 # apt install network-manager-gnome 
 # network-manager-gnome UI
 nm-applet &
+
+
+#(sleep 1s && lxpanel) &
+
+(sleep 1s && /var/sinox/docklight-3.0/docklight) &
+
+# trayer manager
+trayer  --edge top --align right --SetPartialStrut true --transparent true --iconspacing 12 --alpha 255 &
+
+# composite manager  setup without shadows
+# compton -b  &
+
+# composite manager without shadows
+# compton -b  -c &
+
+compton -b --glx-no-stencil --config /home/yoo/.config/compton.conf &
+
+# redshift-gtk with geo for thailand
+redshift-gtk &
+
+# the screen saver default 10 min
+xscreensaver -nosplash &
+
+#enable numlock on
+numlockx on &
+
+# suspend  the system after 30 min
+xautolock -time 30 -locker "systemctl suspend" &
 
 # launch the policykit authentication agent service
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
@@ -35,26 +74,4 @@ nm-applet &
 
 # start nitrogen
 nitrogen --restore &
-
-# composite manager  setup without shadows
-# compton -b  &
-
-# composite manager without shadows
-compton -b  -c &
-
-# trayer manager
-trayer  --edge top --align right --SetPartialStrut true --transparent true --iconspacing 12 --alpha 255 &
-
-# redshift-gtk with geo for thailand
-redshift-gtk &
-
-# the screen saver default 10 min
-xscreensaver -nosplash &
-
-#enable numlock on
-numlockx on &
-
-# suspend  the system after 30 min
-xautolock -time 30 -locker "systemctl suspend" &
-
 #--EOF--
