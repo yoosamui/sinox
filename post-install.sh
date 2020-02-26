@@ -28,6 +28,10 @@ chown -R root:root /usr/share/sddm/faces/.face.icon
 ls /usr/share/sddm/faces -al
 
 
+// gedit for text/plain
+xdg-mime default org.gnome.gedit.desktop  text/plain
+xdg-mime default org.gnome.gedit.desktop  text/x-c
+xdg-mime default okularApplication_pdf.desktop  application/pdf
 
 
 echo "--------------------------------------------------------------------------------------"
