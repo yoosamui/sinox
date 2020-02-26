@@ -34,9 +34,6 @@ xdg-mime default org.gnome.gedit.desktop  text/x-c
 xdg-mime default okularApplication_pdf.desktop  application/pdf
 
 
-echo "--------------------------------------------------------------------------------------"
-echo "SINOX complete que carallo!!! ;o)"
-echo "if you need install drivers do it now and then reboot."
 
 
 
