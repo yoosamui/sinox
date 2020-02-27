@@ -17,7 +17,7 @@ replace='managed=true'
 c=${p1}${search}${r}${replace}${p2}
 sed -i ${c} ${nmfile}
 cat ${nmfile}
-exit
+
 
 
 # avatar
@@ -32,9 +32,9 @@ echo "xdg-mime"
 echo " "
 
 # gedit for text/plain
-sudo xdg-mime default org.gnome.gedit.desktop  text/plain
-sudo xdg-mime default org.gnome.gedit.desktop  text/x-c
-sudo xdg-mime default okularApplication_pdf.desktop  application/pdf
+xdg-mime default org.gnome.gedit.desktop  text/plain
+xdg-mime default org.gnome.gedit.desktop  text/x-c
+xdg-mime default okularApplication_pdf.desktop  application/pdf
 
 
 
