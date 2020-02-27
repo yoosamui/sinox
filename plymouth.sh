@@ -19,8 +19,8 @@ apt-get install plymouth-themes -y
 /usr/sbin/plymouth-set-default-theme -R  futureprototype
 sudo plymouth-set-default-theme
 
-#apt-get install firmware-linux-nonfree -y
-#udo update-initramfs -u -k all
+apt-get install firmware-linux-nonfree -y
+sudo update-initramfs -u -k all
 echo "done"
 
 

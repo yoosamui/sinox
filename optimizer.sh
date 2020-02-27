@@ -32,7 +32,7 @@
 apt update
 
 #Install Restricted-extras packages
-apt install ttf-mscorefonts-installer rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi
+apt install ttf-mscorefonts-installer rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi -y
 
 # Configure Swappiness
 echo "vm.swappiness = 10" >> /etc/sysctl.conf
