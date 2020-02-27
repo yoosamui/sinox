@@ -13,9 +13,6 @@ libgconf-2-4 \
 firmware-misc-nonfree \
 synaptic \
 gnustep-gui-runtime \
-gnupg \
-gnupg1 \
-gnupg2 \
 build-essential \
 cmake \
 libgtkmm-3.0-dev \
@@ -26,6 +23,9 @@ libtool \
 gettext \
 autopoint \
 intltool \
+gnupg \
+gnupg1 \
+gnupg2 \
 kde-spectacle \
 clang-format \
 software-properties-common \
@@ -92,6 +92,3 @@ inkscape \
 libreoffice \
 notification-daemon -y
 
-apt update 
-apt autoremove
-apt clean
