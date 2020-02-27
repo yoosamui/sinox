@@ -1,5 +1,9 @@
 [Added Associations]
-text/plain=mousepad.desktop;org.gnome.gedit.desktop;
+text/plain=org.gnome.gedit.desktop;mousepad.desktop;
+application/x-desktop=org.gnome.gedit.desktop;
+image/png=ristretto.desktop;
+application/x-shellscript=org.gnome.gedit.desktop;
+application/xml=org.gnome.gedit.desktop;
 
 [Default Applications]
 text/plain=org.gnome.gedit.desktop
