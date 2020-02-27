@@ -29,9 +29,9 @@ ls /usr/share/sddm/faces -al
 
 
 # gedit for text/plain
-xdg-mime default org.gnome.gedit.desktop  text/plain
-xdg-mime default org.gnome.gedit.desktop  text/x-c
-xdg-mime default okularApplication_pdf.desktop  application/pdf
+sudo xdg-mime default org.gnome.gedit.desktop  text/plain
+sudo xdg-mime default org.gnome.gedit.desktop  text/x-c
+sudo xdg-mime default okularApplication_pdf.desktop  application/pdf
 
 
 
