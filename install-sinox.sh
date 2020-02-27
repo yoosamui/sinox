@@ -9,11 +9,11 @@ sh ./software-full.sh
 
 sh ./copy-files.sh
 
-sh ./software-extra.sh
-sh ./docker.sh
-sh ./post-install.sh
-sh ./optimizer.sh
-sh ./update-fstab.sh
+#sh ./software-extra.sh
+#sh ./docker.sh
+#sh ./post-install.sh
+#sh ./optimizer.sh
+#sh ./update-fstab.sh
 
 echo "--------------------------------------------------------------------------------------"
 echo "SINOX installation complete"
