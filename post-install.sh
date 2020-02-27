@@ -12,11 +12,12 @@ nmfile='/etc/NetworkManager/NetworkManager.conf'
 p1='s/'
 p2='/g'
 r='/'
-earch='managed=false'
+search='managed=false'
 replace='managed=true'
 c=${p1}${search}${r}${replace}${p2}
 sed -i ${c} ${nmfile}
 cat ${nmfile}
+exit
 
 
 # avatar
@@ -27,6 +28,8 @@ cat ${nmfile}
 #chown -R root:root /usr/share/sddm/faces/.face.icon
 #ls /usr/share/sddm/faces -al
 
+echo "xdg-mime"
+echo " "
 
 # gedit for text/plain
 sudo xdg-mime default org.gnome.gedit.desktop  text/plain
