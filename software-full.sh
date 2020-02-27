@@ -13,6 +13,9 @@ libgconf-2-4 \
 firmware-misc-nonfree \
 synaptic \
 gnustep-gui-runtime \
+gnupg \
+gnupg1 \
+gnupg2 \
 build-essential \
 cmake \
 libgtkmm-3.0-dev \
