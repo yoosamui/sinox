@@ -31,7 +31,7 @@ cat ${nmfile}
 # gedit for text/plain
 echo " "
 echo "xdg-mime"
-touch "~/.config/mimeapps.list"
+touch "/home/"$USER"/.config/mimeapps.list"
 
 xdg-mime default org.gnome.gedit.desktop  text/plain
 xdg-mime default org.gnome.gedit.desktop  text/x-c
