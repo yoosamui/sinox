@@ -1,5 +1,0 @@
-(electron) 'setZoomLevel function' is deprecated and will be removed. Please use 'zoomLevel property' instead.
-(electron) 'getZoomLevel function' is deprecated and will be removed. Please use 'zoomLevel property' instead.
-(electron) 'setBadgeCount function' is deprecated and will be removed. Please use 'badgeCount property' instead.
-ioctl failed for wlan0, errno = 19 (No such device)
-ioctl failed for wlp2s0, errno = 19 (No such device)
