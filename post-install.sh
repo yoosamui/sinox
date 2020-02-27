@@ -20,12 +20,12 @@ cat ${nmfile}
 
 
 # avatar
-echo "copy face avatar" 
-mkdir -p /usr/share/sddm/faces/
-chown -R root:root /usr/share/sddm/faces
-cp usr/share/sddm/faces/.face.icon /usr/share/sddm/faces/.face.icon
-chown -R root:root /usr/share/sddm/faces/.face.icon
-ls /usr/share/sddm/faces -al
+#echo "copy face avatar" 
+#mkdir -p /usr/share/sddm/faces/
+#chown -R root:root /usr/share/sddm/faces
+#cp usr/share/sddm/faces/.face.icon /usr/share/sddm/faces/.face.icon
+#chown -R root:root /usr/share/sddm/faces/.face.icon
+#ls /usr/share/sddm/faces -al
 
 
 # gedit for text/plain
