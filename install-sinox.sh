@@ -17,7 +17,7 @@ sh ./copy-files.sh
 
 echo "--------------------------------------------------------------------------------------"
 echo "SINOX installation complete"
-echo "if you need install drivers do it now and then reboot."
+echo "if you need to install drivers do it now and then reboot."
 
 ./
 cd drivers
